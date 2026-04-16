@@ -1,0 +1,469 @@
+time=2026-04-16T14:55:26.192+01:00 level=INFO msg="fetching video details" video=write-great-code-reviews-to-advance-your-career progress=1/30
+time=2026-04-16T14:55:27.844+01:00 level=INFO msg="fetching video details" video=what-you-need-to-know progress=2/30
+time=2026-04-16T14:55:29.476+01:00 level=INFO msg="fetching video details" video=what-is-a-code-review progress=3/30
+time=2026-04-16T14:55:31.132+01:00 level=INFO msg="fetching video details" video=code-reviews-in-the-software-development-life-cycle progress=4/30
+time=2026-04-16T14:55:32.932+01:00 level=INFO msg="fetching video details" video=who-should-review-code progress=5/30
+time=2026-04-16T14:55:34.674+01:00 level=INFO msg="fetching video details" video=how-long-should-a-code-review-really-take progress=6/30
+time=2026-04-16T14:55:36.414+01:00 level=INFO msg="fetching video details" video=understand-the-author-s-purpose progress=7/30
+time=2026-04-16T14:55:38.089+01:00 level=INFO msg="fetching video details" video=review-implementation-details progress=8/30
+time=2026-04-16T14:55:39.775+01:00 level=INFO msg="fetching video details" video=review-maintainability-and-design progress=9/30
+time=2026-04-16T14:55:41.423+01:00 level=INFO msg="fetching video details" video=review-unfamiliar-code progress=10/30
+time=2026-04-16T14:55:43.229+01:00 level=INFO msg="fetching video details" video=providing-constructive-feedback-23424348 progress=11/30
+time=2026-04-16T14:55:44.875+01:00 level=INFO msg="fetching video details" video=common-challenges-23424347 progress=12/30
+time=2026-04-16T14:55:46.501+01:00 level=INFO msg="fetching video details" video=using-ai-in-code-reviews-23435015 progress=13/30
+time=2026-04-16T14:55:48.179+01:00 level=INFO msg="fetching video details" video=find-code-to-review-on-github progress=14/30
+time=2026-04-16T14:55:49.901+01:00 level=INFO msg="fetching video details" video=test-code-on-a-local-machine progress=15/30
+time=2026-04-16T14:55:51.611+01:00 level=INFO msg="fetching video details" video=write-code-review-comments progress=16/30
+time=2026-04-16T14:55:53.404+01:00 level=INFO msg="fetching video details" video=approve-code progress=17/30
+time=2026-04-16T14:55:55.051+01:00 level=INFO msg="fetching video details" video=challenge-give-a-code-review progress=18/30
+time=2026-04-16T14:55:56.839+01:00 level=INFO msg="fetching video details" video=solution-give-a-code-review progress=19/30
+time=2026-04-16T14:55:58.494+01:00 level=INFO msg="fetching video details" video=scope-of-a-code-change progress=20/30
+time=2026-04-16T14:56:00.208+01:00 level=INFO msg="fetching video details" video=implement-a-code-change progress=21/30
+time=2026-04-16T14:56:01.891+01:00 level=INFO msg="fetching video details" video=commit-a-code-change progress=22/30
+time=2026-04-16T14:56:03.610+01:00 level=INFO msg="fetching video details" video=prepare-code-for-review progress=23/30
+time=2026-04-16T14:56:05.313+01:00 level=INFO msg="fetching video details" video=create-a-pull-request-pr progress=24/30
+time=2026-04-16T14:56:06.958+01:00 level=INFO msg="fetching video details" video=find-code-reviewers progress=25/30
+time=2026-04-16T14:56:08.607+01:00 level=INFO msg="fetching video details" video=handle-code-review-comments progress=26/30
+time=2026-04-16T14:56:10.301+01:00 level=INFO msg="fetching video details" video=respond-to-code-reviews-comments progress=27/30
+time=2026-04-16T14:56:11.942+01:00 level=INFO msg="fetching video details" video=challenge-add-a-feature-and-submit-a-pr progress=28/30
+time=2026-04-16T14:56:13.668+01:00 level=INFO msg="fetching video details" video=solution-add-a-feature-and-submit-a-pr progress=29/30
+time=2026-04-16T14:56:15.328+01:00 level=INFO msg="fetching video details" video=add-code-reviews-into-your-daily-job progress=30/30
+time=2026-04-16T14:56:16.006+01:00 level=INFO msg=Downloaded file="Subtitle: Write great code reviews to advance your career" progress=1/60
+time=2026-04-16T14:56:16.007+01:00 level=INFO msg=Downloaded file="Subtitle: What you need to know" progress=2/60
+time=2026-04-16T14:56:16.007+01:00 level=INFO msg=Downloaded file="Subtitle: What is a code review?" progress=3/60
+time=2026-04-16T14:56:16.299+01:00 level=INFO msg=Downloaded file="Video: What is a code review?" progress=4/60
+time=2026-04-16T14:56:16.299+01:00 level=INFO msg=Downloaded file="Subtitle: Code reviews in the software development life cycle" progress=5/60
+time=2026-04-16T14:56:16.300+01:00 level=INFO msg=Downloaded file="Video: What you need to know" progress=6/60
+time=2026-04-16T14:56:16.300+01:00 level=INFO msg=Downloaded file="Subtitle: Who should review code?" progress=7/60
+time=2026-04-16T14:56:16.933+01:00 level=INFO msg=Downloaded file="Video: Code reviews in the software development life cycle" progress=8/60
+time=2026-04-16T14:56:16.933+01:00 level=INFO msg=Downloaded file="Subtitle: How long should a code review really take" progress=9/60
+time=2026-04-16T14:56:18.060+01:00 level=INFO msg=Downloaded file="Video: Write great code reviews to advance your career" progress=10/60
+time=2026-04-16T14:56:18.060+01:00 level=INFO msg=Downloaded file="Subtitle: Understand the author’s purpose" progress=11/60
+time=2026-04-16T14:56:18.066+01:00 level=INFO msg=Downloaded file="Video: How long should a code review really take" progress=12/60
+time=2026-04-16T14:56:18.066+01:00 level=INFO msg=Downloaded file="Subtitle: Review implementation details" progress=13/60
+time=2026-04-16T14:56:18.071+01:00 level=INFO msg=Downloaded file="Video: Who should review code?" progress=14/60
+time=2026-04-16T14:56:18.071+01:00 level=INFO msg=Downloaded file="Subtitle: Review maintainability and design" progress=15/60
+time=2026-04-16T14:56:18.076+01:00 level=INFO msg=Downloaded file="Video: Understand the author’s purpose" progress=16/60
+time=2026-04-16T14:56:18.076+01:00 level=INFO msg=Downloaded file="Subtitle: Review unfamiliar code" progress=17/60
+time=2026-04-16T14:56:18.348+01:00 level=INFO msg=Downloaded file="Video: Review maintainability and design" progress=18/60
+time=2026-04-16T14:56:18.348+01:00 level=INFO msg=Downloaded file="Subtitle: Providing constructive feedback" progress=19/60
+time=2026-04-16T14:56:18.353+01:00 level=INFO msg=Downloaded file="Video: Providing constructive feedback" progress=20/60
+time=2026-04-16T14:56:18.353+01:00 level=INFO msg=Downloaded file="Subtitle: Common challenges" progress=21/60
+time=2026-04-16T14:56:18.708+01:00 level=INFO msg=Downloaded file="Video: Review unfamiliar code" progress=22/60
+time=2026-04-16T14:56:18.708+01:00 level=INFO msg=Downloaded file="Subtitle: Using AI in code reviews" progress=23/60
+time=2026-04-16T14:56:21.163+01:00 level=INFO msg=Downloaded file="Video: Review implementation details" progress=24/60
+time=2026-04-16T14:56:21.163+01:00 level=INFO msg=Downloaded file="Subtitle: Find code to review on GitHub" progress=25/60
+time=2026-04-16T14:56:21.182+01:00 level=INFO msg=Downloaded file="Video: Using AI in code reviews" progress=26/60
+time=2026-04-16T14:56:21.182+01:00 level=INFO msg=Downloaded file="Subtitle: Test code on a local machine" progress=27/60
+time=2026-04-16T14:56:21.186+01:00 level=INFO msg=Downloaded file="Video: Common challenges" progress=28/60
+time=2026-04-16T14:56:21.187+01:00 level=INFO msg=Downloaded file="Subtitle: Write code review comments" progress=29/60
+time=2026-04-16T14:56:21.550+01:00 level=INFO msg=Downloaded file="Video: Find code to review on GitHub" progress=30/60
+time=2026-04-16T14:56:21.550+01:00 level=INFO msg=Downloaded file="Subtitle: Approve code" progress=31/60
+time=2026-04-16T14:56:21.684+01:00 level=INFO msg=Downloaded file="Video: Test code on a local machine" progress=32/60
+time=2026-04-16T14:56:21.684+01:00 level=INFO msg=Downloaded file="Subtitle: Challenge: Give a code review" progress=33/60
+time=2026-04-16T14:56:21.814+01:00 level=INFO msg=Downloaded file="Video: Approve code" progress=34/60
+time=2026-04-16T14:56:21.814+01:00 level=INFO msg=Downloaded file="Subtitle: Solution: Give a code review" progress=35/60
+time=2026-04-16T14:56:22.173+01:00 level=INFO msg=Downloaded file="Video: Solution: Give a code review" progress=36/60
+time=2026-04-16T14:56:22.173+01:00 level=INFO msg=Downloaded file="Subtitle: Scope of a code change" progress=37/60
+time=2026-04-16T14:56:22.245+01:00 level=INFO msg=Downloaded file="Video: Write code review comments" progress=38/60
+time=2026-04-16T14:56:22.245+01:00 level=INFO msg=Downloaded file="Subtitle: Implement a code change" progress=39/60
+time=2026-04-16T14:56:23.130+01:00 level=INFO msg=Downloaded file="Video: Challenge: Give a code review" progress=40/60
+time=2026-04-16T14:56:23.130+01:00 level=INFO msg=Downloaded file="Subtitle: Commit a code change" progress=41/60
+time=2026-04-16T14:56:25.427+01:00 level=INFO msg=Downloaded file="Video: Scope of a code change" progress=42/60
+time=2026-04-16T14:56:25.427+01:00 level=INFO msg=Downloaded file="Subtitle: Prepare code for review" progress=43/60
+time=2026-04-16T14:56:25.551+01:00 level=INFO msg=Downloaded file="Video: Implement a code change" progress=44/60
+time=2026-04-16T14:56:25.551+01:00 level=INFO msg=Downloaded file="Subtitle: Create a pull request (PR)" progress=45/60
+time=2026-04-16T14:56:25.572+01:00 level=INFO msg=Downloaded file="Video: Commit a code change" progress=46/60
+time=2026-04-16T14:56:25.572+01:00 level=INFO msg=Downloaded file="Subtitle: Find code reviewers" progress=47/60
+time=2026-04-16T14:56:25.575+01:00 level=INFO msg=Downloaded file="Video: Prepare code for review" progress=48/60
+time=2026-04-16T14:56:25.575+01:00 level=INFO msg=Downloaded file="Subtitle: Handle code review comments" progress=49/60
+time=2026-04-16T14:56:25.743+01:00 level=INFO msg=Downloaded file="Video: Create a pull request (PR)" progress=50/60
+time=2026-04-16T14:56:25.744+01:00 level=INFO msg=Downloaded file="Subtitle: Respond to code reviews comments" progress=51/60
+time=2026-04-16T14:56:25.882+01:00 level=INFO msg=Downloaded file="Video: Handle code review comments" progress=52/60
+time=2026-04-16T14:56:25.882+01:00 level=INFO msg=Downloaded file="Subtitle: Challenge: Add a feature and submit a PR" progress=53/60
+time=2026-04-16T14:56:25.902+01:00 level=INFO msg=Downloaded file="Video: Find code reviewers" progress=54/60
+time=2026-04-16T14:56:25.902+01:00 level=INFO msg=Downloaded file="Subtitle: Solution: Add a feature and submit a PR" progress=55/60
+time=2026-04-16T14:56:26.030+01:00 level=INFO msg=Downloaded file="Video: Respond to code reviews comments" progress=56/60
+time=2026-04-16T14:56:26.030+01:00 level=INFO msg=Downloaded file="Subtitle: Add code reviews into your daily job" progress=57/60
+time=2026-04-16T14:56:26.057+01:00 level=INFO msg=Downloaded file="Video: Challenge: Add a feature and submit a PR" progress=58/60
+time=2026-04-16T14:56:26.063+01:00 level=INFO msg=Downloaded file="Video: Add code reviews into your daily job" progress=59/60
+time=2026-04-16T14:56:26.438+01:00 level=INFO msg=Downloaded file="Video: Solution: Add a feature and submit a PR" progress=60/60
+time=2026-04-16T15:11:52.169+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
+time=2026-04-16T15:11:54.229+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
+time=2026-04-16T15:11:56.283+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
+time=2026-04-16T15:11:58.319+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
+time=2026-04-16T15:12:00.361+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
+time=2026-04-16T15:12:02.371+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
+time=2026-04-16T15:12:04.337+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
+time=2026-04-16T15:12:06.639+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
+time=2026-04-16T15:12:08.680+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
+time=2026-04-16T15:12:10.663+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
+time=2026-04-16T15:12:12.766+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
+time=2026-04-16T15:12:14.784+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
+time=2026-04-16T15:12:16.803+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
+time=2026-04-16T15:12:18.797+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
+time=2026-04-16T15:12:20.862+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
+time=2026-04-16T15:12:22.943+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
+time=2026-04-16T15:12:24.981+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
+time=2026-04-16T15:12:26.950+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
+time=2026-04-16T15:12:29.096+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
+time=2026-04-16T15:12:31.320+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
+time=2026-04-16T15:12:32.424+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
+time=2026-04-16T15:12:32.424+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
+time=2026-04-16T15:12:32.424+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
+time=2026-04-16T15:12:33.338+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=4/41
+time=2026-04-16T15:12:33.338+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
+time=2026-04-16T15:12:38.543+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=6/41
+time=2026-04-16T15:12:38.544+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
+time=2026-04-16T15:12:38.605+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
+time=2026-04-16T15:12:38.605+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
+time=2026-04-16T15:12:38.626+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=10/41
+time=2026-04-16T15:12:38.626+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
+time=2026-04-16T15:12:38.704+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
+time=2026-04-16T15:12:38.704+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
+time=2026-04-16T15:12:39.282+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=14/41
+time=2026-04-16T15:12:39.282+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
+time=2026-04-16T15:12:41.956+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=16/41
+time=2026-04-16T15:12:41.956+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
+time=2026-04-16T15:12:42.390+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=18/41
+time=2026-04-16T15:12:42.391+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
+time=2026-04-16T15:12:42.512+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
+time=2026-04-16T15:12:42.512+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
+time=2026-04-16T15:12:44.056+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
+time=2026-04-16T15:12:44.056+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
+time=2026-04-16T15:12:44.119+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
+time=2026-04-16T15:12:44.119+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
+time=2026-04-16T15:12:45.202+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
+time=2026-04-16T15:12:45.202+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
+time=2026-04-16T15:12:45.226+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
+time=2026-04-16T15:12:45.226+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
+time=2026-04-16T15:12:45.266+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
+time=2026-04-16T15:12:45.266+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
+time=2026-04-16T15:12:45.376+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
+time=2026-04-16T15:12:45.376+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
+time=2026-04-16T15:12:45.432+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
+time=2026-04-16T15:12:45.432+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
+time=2026-04-16T15:12:45.772+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
+time=2026-04-16T15:12:45.772+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
+time=2026-04-16T15:12:45.838+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776363112_7600c73c2862e2e25efacad93d71c5b3\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
+time=2026-04-16T15:12:45.934+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=39/41
+time=2026-04-16T15:12:45.979+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=40/41
+time=2026-04-16T15:12:45.989+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
+time=2026-04-16T18:29:20.231+01:00 level=INFO msg="DEBUG: raw exerciseFiles from API" data="[{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776374960_5e46ff1ff4dfbfaea1a6cfb2e55b4b0e\"}]"
+time=2026-04-16T18:29:20.231+01:00 level=INFO msg="DEBUG: exercise file object keys" keys="[name url sizeInBytes]"
+time=2026-04-16T18:29:20.231+01:00 level=INFO msg="DEBUG: first exercise file object" data="{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776374960_5e46ff1ff4dfbfaea1a6cfb2e55b4b0e\"}"
+time=2026-04-16T18:29:20.231+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
+time=2026-04-16T18:29:22.269+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
+time=2026-04-16T18:29:24.293+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
+time=2026-04-16T18:29:26.609+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
+time=2026-04-16T18:29:29.085+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
+time=2026-04-16T18:29:31.326+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
+time=2026-04-16T18:29:33.569+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
+time=2026-04-16T18:29:35.833+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
+time=2026-04-16T18:29:38.117+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
+time=2026-04-16T18:29:40.167+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
+time=2026-04-16T18:29:42.613+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
+time=2026-04-16T18:29:44.785+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
+time=2026-04-16T18:29:47.308+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
+time=2026-04-16T18:29:49.509+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
+time=2026-04-16T18:29:52.276+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
+time=2026-04-16T18:29:54.295+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
+time=2026-04-16T18:29:56.606+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
+time=2026-04-16T18:29:58.652+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
+time=2026-04-16T18:30:00.721+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
+time=2026-04-16T18:30:02.958+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
+time=2026-04-16T18:30:04.030+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
+time=2026-04-16T18:30:04.030+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
+time=2026-04-16T18:30:04.031+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
+time=2026-04-16T18:30:04.516+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=4/41
+time=2026-04-16T18:30:04.516+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
+time=2026-04-16T18:30:04.524+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=6/41
+time=2026-04-16T18:30:04.524+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
+time=2026-04-16T18:30:04.632+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
+time=2026-04-16T18:30:04.632+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
+time=2026-04-16T18:30:04.801+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=10/41
+time=2026-04-16T18:30:04.801+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
+time=2026-04-16T18:30:04.942+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
+time=2026-04-16T18:30:04.942+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
+time=2026-04-16T18:30:05.098+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
+time=2026-04-16T18:30:05.098+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
+time=2026-04-16T18:30:05.199+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
+time=2026-04-16T18:30:05.199+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
+time=2026-04-16T18:30:05.331+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
+time=2026-04-16T18:30:05.331+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
+time=2026-04-16T18:30:05.485+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
+time=2026-04-16T18:30:05.485+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
+time=2026-04-16T18:30:05.678+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
+time=2026-04-16T18:30:05.678+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
+time=2026-04-16T18:30:05.749+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
+time=2026-04-16T18:30:05.749+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
+time=2026-04-16T18:30:05.922+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
+time=2026-04-16T18:30:05.922+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
+time=2026-04-16T18:30:05.959+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
+time=2026-04-16T18:30:05.959+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
+time=2026-04-16T18:30:06.083+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
+time=2026-04-16T18:30:06.083+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
+time=2026-04-16T18:30:06.248+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
+time=2026-04-16T18:30:06.248+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
+time=2026-04-16T18:30:06.299+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
+time=2026-04-16T18:30:06.299+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
+time=2026-04-16T18:30:06.518+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
+time=2026-04-16T18:30:06.518+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
+time=2026-04-16T18:30:06.542+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
+time=2026-04-16T18:30:06.582+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776374960_5e46ff1ff4dfbfaea1a6cfb2e55b4b0e\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
+time=2026-04-16T18:30:06.669+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=40/41
+time=2026-04-16T18:30:06.674+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
+time=2026-04-16T20:40:13.390+01:00 level=INFO msg="DEBUG: raw exerciseFiles from API" data="[{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776382813_21c737909c6a5f2c6a488ea1d6c4d1ed\"}]"
+time=2026-04-16T20:40:13.390+01:00 level=INFO msg="DEBUG: exercise file object keys" keys="[url sizeInBytes name]"
+time=2026-04-16T20:40:13.391+01:00 level=INFO msg="DEBUG: first exercise file object" data="{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776382813_21c737909c6a5f2c6a488ea1d6c4d1ed\"}"
+time=2026-04-16T20:40:13.391+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
+time=2026-04-16T20:40:15.413+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
+time=2026-04-16T20:40:17.523+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
+time=2026-04-16T20:40:19.529+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
+time=2026-04-16T20:40:21.513+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
+time=2026-04-16T20:40:23.673+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
+time=2026-04-16T20:40:25.636+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
+time=2026-04-16T20:40:27.648+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
+time=2026-04-16T20:40:29.729+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
+time=2026-04-16T20:40:31.784+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
+time=2026-04-16T20:40:33.748+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
+time=2026-04-16T20:40:35.916+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
+time=2026-04-16T20:40:37.914+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
+time=2026-04-16T20:40:39.917+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
+time=2026-04-16T20:40:41.868+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
+time=2026-04-16T20:40:44.152+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
+time=2026-04-16T20:40:46.212+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
+time=2026-04-16T20:40:48.333+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
+time=2026-04-16T20:40:50.518+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
+time=2026-04-16T20:40:52.483+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
+time=2026-04-16T20:40:53.642+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
+time=2026-04-16T20:40:53.642+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
+time=2026-04-16T20:40:53.642+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
+time=2026-04-16T20:40:54.786+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=4/41
+time=2026-04-16T20:40:54.786+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
+time=2026-04-16T20:40:55.088+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=6/41
+time=2026-04-16T20:40:55.088+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
+time=2026-04-16T20:40:55.101+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=8/41
+time=2026-04-16T20:40:55.101+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
+time=2026-04-16T20:40:55.724+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=10/41
+time=2026-04-16T20:40:55.725+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
+time=2026-04-16T20:40:56.053+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
+time=2026-04-16T20:40:56.053+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
+time=2026-04-16T20:40:56.300+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
+time=2026-04-16T20:40:56.300+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
+time=2026-04-16T20:40:56.568+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
+time=2026-04-16T20:40:56.568+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
+time=2026-04-16T20:40:56.887+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
+time=2026-04-16T20:40:56.888+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
+time=2026-04-16T20:40:57.251+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
+time=2026-04-16T20:40:57.251+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
+time=2026-04-16T20:40:57.640+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
+time=2026-04-16T20:40:57.641+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
+time=2026-04-16T20:40:57.744+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
+time=2026-04-16T20:40:57.745+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
+time=2026-04-16T20:40:57.860+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
+time=2026-04-16T20:40:57.860+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
+time=2026-04-16T20:40:57.941+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
+time=2026-04-16T20:40:57.941+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
+time=2026-04-16T20:40:58.483+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=30/41
+time=2026-04-16T20:40:58.484+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
+time=2026-04-16T20:40:58.663+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=32/41
+time=2026-04-16T20:40:58.663+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
+time=2026-04-16T20:40:58.994+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=34/41
+time=2026-04-16T20:40:58.994+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
+time=2026-04-16T20:40:59.381+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
+time=2026-04-16T20:40:59.381+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
+time=2026-04-16T20:40:59.421+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
+time=2026-04-16T20:40:59.460+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776382813_21c737909c6a5f2c6a488ea1d6c4d1ed\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
+time=2026-04-16T20:40:59.639+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=40/41
+time=2026-04-16T20:40:59.651+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
+time=2026-04-16T21:55:16.891+01:00 level=INFO msg="DEBUG: raw exerciseFiles from API" data="[{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387316_ee64be51b01965fdf2d6d6a42e4342b6\"}]"
+time=2026-04-16T21:55:16.894+01:00 level=INFO msg="DEBUG: exercise file object keys" keys="[name url sizeInBytes]"
+time=2026-04-16T21:55:16.895+01:00 level=INFO msg="DEBUG: first exercise file object" data="{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387316_ee64be51b01965fdf2d6d6a42e4342b6\"}"
+time=2026-04-16T21:55:16.895+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
+time=2026-04-16T21:55:19.166+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
+time=2026-04-16T21:55:21.460+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
+time=2026-04-16T21:55:23.739+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
+time=2026-04-16T21:55:25.926+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
+time=2026-04-16T21:55:27.929+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
+time=2026-04-16T21:55:30.227+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
+time=2026-04-16T21:55:32.435+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
+time=2026-04-16T21:55:34.609+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
+time=2026-04-16T21:55:36.589+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
+time=2026-04-16T21:55:38.611+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
+time=2026-04-16T21:55:40.684+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
+time=2026-04-16T21:55:42.790+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
+time=2026-04-16T21:55:44.822+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
+time=2026-04-16T21:55:47.021+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
+time=2026-04-16T21:55:49.074+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
+time=2026-04-16T21:55:51.195+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
+time=2026-04-16T21:55:53.242+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
+time=2026-04-16T21:55:55.291+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
+time=2026-04-16T21:55:57.400+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
+time=2026-04-16T21:55:58.572+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
+time=2026-04-16T21:55:58.572+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
+time=2026-04-16T21:55:58.572+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
+time=2026-04-16T21:55:59.123+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=4/41
+time=2026-04-16T21:55:59.124+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
+time=2026-04-16T21:55:59.272+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=6/41
+time=2026-04-16T21:55:59.272+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
+time=2026-04-16T21:55:59.458+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
+time=2026-04-16T21:55:59.458+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
+time=2026-04-16T21:55:59.532+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=10/41
+time=2026-04-16T21:55:59.532+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
+time=2026-04-16T21:55:59.906+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
+time=2026-04-16T21:55:59.906+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
+time=2026-04-16T21:56:00.070+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
+time=2026-04-16T21:56:00.070+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
+time=2026-04-16T21:56:00.214+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
+time=2026-04-16T21:56:00.214+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
+time=2026-04-16T21:56:00.433+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
+time=2026-04-16T21:56:00.434+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
+time=2026-04-16T21:56:00.618+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
+time=2026-04-16T21:56:00.619+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
+time=2026-04-16T21:56:00.794+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
+time=2026-04-16T21:56:00.794+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
+time=2026-04-16T21:56:00.888+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
+time=2026-04-16T21:56:00.888+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
+time=2026-04-16T21:56:01.135+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
+time=2026-04-16T21:56:01.135+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
+time=2026-04-16T21:56:01.178+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
+time=2026-04-16T21:56:01.179+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
+time=2026-04-16T21:56:01.287+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
+time=2026-04-16T21:56:01.287+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
+time=2026-04-16T21:56:01.412+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
+time=2026-04-16T21:56:01.412+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
+time=2026-04-16T21:56:01.479+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
+time=2026-04-16T21:56:01.479+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
+time=2026-04-16T21:56:01.604+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
+time=2026-04-16T21:56:01.604+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
+time=2026-04-16T21:56:01.643+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
+time=2026-04-16T21:56:01.655+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=39/41
+time=2026-04-16T21:56:01.684+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387316_ee64be51b01965fdf2d6d6a42e4342b6\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
+time=2026-04-16T21:56:01.971+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=41/41
+time=2026-04-16T22:00:47.687+01:00 level=INFO msg="Found exercise files" count=1
+time=2026-04-16T22:00:47.687+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
+time=2026-04-16T22:00:49.660+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
+time=2026-04-16T22:00:51.637+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
+time=2026-04-16T22:00:53.586+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
+time=2026-04-16T22:00:55.620+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
+time=2026-04-16T22:00:57.719+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
+time=2026-04-16T22:00:59.738+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
+time=2026-04-16T22:01:01.938+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
+time=2026-04-16T22:01:03.959+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
+time=2026-04-16T22:01:05.938+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
+time=2026-04-16T22:01:08.050+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
+time=2026-04-16T22:01:10.049+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
+time=2026-04-16T22:01:12.082+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
+time=2026-04-16T22:01:14.056+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
+time=2026-04-16T22:01:16.036+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
+time=2026-04-16T22:01:17.993+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
+time=2026-04-16T22:01:20.073+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
+time=2026-04-16T22:01:22.069+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
+time=2026-04-16T22:01:24.069+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
+time=2026-04-16T22:01:26.023+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
+time=2026-04-16T22:01:28.458+01:00 level=INFO msg="No exercise files found in page HTML"
+time=2026-04-16T22:01:28.460+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
+time=2026-04-16T22:01:28.460+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
+time=2026-04-16T22:01:28.460+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
+time=2026-04-16T22:01:28.976+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=4/41
+time=2026-04-16T22:01:28.976+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
+time=2026-04-16T22:01:28.981+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=6/41
+time=2026-04-16T22:01:28.981+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
+time=2026-04-16T22:01:29.314+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=8/41
+time=2026-04-16T22:01:29.315+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
+time=2026-04-16T22:01:29.421+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=10/41
+time=2026-04-16T22:01:29.422+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
+time=2026-04-16T22:01:29.585+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
+time=2026-04-16T22:01:29.585+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
+time=2026-04-16T22:01:29.668+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
+time=2026-04-16T22:01:29.668+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
+time=2026-04-16T22:01:29.825+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
+time=2026-04-16T22:01:29.825+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
+time=2026-04-16T22:01:29.948+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
+time=2026-04-16T22:01:29.948+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
+time=2026-04-16T22:01:30.156+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
+time=2026-04-16T22:01:30.156+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
+time=2026-04-16T22:01:30.366+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
+time=2026-04-16T22:01:30.367+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
+time=2026-04-16T22:01:30.455+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
+time=2026-04-16T22:01:30.455+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
+time=2026-04-16T22:01:30.601+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
+time=2026-04-16T22:01:30.601+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
+time=2026-04-16T22:01:30.637+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
+time=2026-04-16T22:01:30.637+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
+time=2026-04-16T22:01:30.767+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
+time=2026-04-16T22:01:30.768+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
+time=2026-04-16T22:01:30.943+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
+time=2026-04-16T22:01:30.943+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
+time=2026-04-16T22:01:31.016+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
+time=2026-04-16T22:01:31.016+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
+time=2026-04-16T22:01:31.239+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
+time=2026-04-16T22:01:31.240+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
+time=2026-04-16T22:01:31.249+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
+time=2026-04-16T22:01:31.337+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387647_bce1c955ba1e8fc14a596fe23d093cf1\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
+time=2026-04-16T22:01:31.352+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=40/41
+time=2026-04-16T22:01:31.361+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
+time=2026-04-16T23:05:49.975+01:00 level=INFO msg="Found exercise files" count=1
+time=2026-04-16T23:05:49.976+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
+time=2026-04-16T23:05:52.006+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
+time=2026-04-16T23:05:54.878+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
+time=2026-04-16T23:05:56.900+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
+time=2026-04-16T23:05:58.948+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
+time=2026-04-16T23:06:01.124+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
+time=2026-04-16T23:06:03.209+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
+time=2026-04-16T23:06:05.379+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
+time=2026-04-16T23:06:07.352+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
+time=2026-04-16T23:06:09.428+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
+time=2026-04-16T23:06:11.492+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
+time=2026-04-16T23:06:13.492+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
+time=2026-04-16T23:06:15.548+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
+time=2026-04-16T23:06:17.837+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
+time=2026-04-16T23:06:19.785+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
+time=2026-04-16T23:06:21.933+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
+time=2026-04-16T23:06:24.044+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
+time=2026-04-16T23:06:26.059+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
+time=2026-04-16T23:06:28.065+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
+time=2026-04-16T23:06:30.172+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
+time=2026-04-16T23:06:32.781+01:00 level=INFO msg="Found exercise files with ambry URLs" count=1
+time=2026-04-16T23:06:32.781+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
+time=2026-04-16T23:06:32.781+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
+time=2026-04-16T23:06:32.782+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
+time=2026-04-16T23:06:33.806+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=4/41
+time=2026-04-16T23:06:33.806+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
+time=2026-04-16T23:06:34.112+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=6/41
+time=2026-04-16T23:06:34.113+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
+time=2026-04-16T23:06:34.324+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
+time=2026-04-16T23:06:34.324+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
+time=2026-04-16T23:06:34.382+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=10/41
+time=2026-04-16T23:06:34.382+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
+time=2026-04-16T23:06:34.893+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
+time=2026-04-16T23:06:34.893+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
+time=2026-04-16T23:06:35.132+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
+time=2026-04-16T23:06:35.132+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
+time=2026-04-16T23:06:35.388+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
+time=2026-04-16T23:06:35.388+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
+time=2026-04-16T23:06:35.721+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
+time=2026-04-16T23:06:35.722+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
+time=2026-04-16T23:06:36.099+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
+time=2026-04-16T23:06:36.100+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
+time=2026-04-16T23:06:36.517+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
+time=2026-04-16T23:06:36.517+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
+time=2026-04-16T23:06:36.711+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
+time=2026-04-16T23:06:36.711+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
+time=2026-04-16T23:06:36.994+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
+time=2026-04-16T23:06:36.994+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
+time=2026-04-16T23:06:37.108+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
+time=2026-04-16T23:06:37.108+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
+time=2026-04-16T23:06:37.379+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
+time=2026-04-16T23:06:37.379+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
+time=2026-04-16T23:06:37.742+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
+time=2026-04-16T23:06:37.743+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
+time=2026-04-16T23:06:37.897+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
+time=2026-04-16T23:06:37.897+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
+time=2026-04-16T23:06:38.298+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
+time=2026-04-16T23:06:38.298+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
+time=2026-04-16T23:06:38.346+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
+time=2026-04-16T23:06:38.564+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=39/41
+time=2026-04-16T23:06:38.576+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=40/41
+time=2026-04-16T23:06:38.580+01:00 level=INFO msg=Downloaded file="Exercise: Ex_Files_Developer_to_Manager.zip" progress=41/41

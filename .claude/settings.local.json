@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__plugin_claude-mem_mcp-search__search",
+      "mcp__plugin_claude-mem_mcp-search__save_memory",
+      "mcp__plugin_claude-mem_mcp-search__get_observations",
+      "mcp__plugin_context-mode_context-mode__ctx_batch_execute",
+      "mcp__plugin_context-mode_context-mode__ctx_search",
+      "WebSearch",
+      "mcp__plugin_context-mode_context-mode__ctx_fetch_and_index",
+      "mcp__plugin_context-mode_context-mode__ctx_execute",
+      "Bash(go build *)",
+      "Bash(go vet *)",
+      "mcp__plugin_context-mode_context-mode__ctx_execute_file",
+      "Bash(dig +short lilcdn-a.akamaihd.net @8.8.8.8)",
+      "Bash(dig +short lilcdn-a.akamaihd.net @1.1.1.1)",
+      "Bash(dig +short lilcdn-a.akamaihd.net)",
+      "Bash(go install *)",
+      "Bash(golangci-lint *)",
+      "Bash(chmod +x *)"
+    ]
+  }
+}

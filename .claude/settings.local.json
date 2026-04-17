@@ -17,7 +17,19 @@
       "Bash(dig +short lilcdn-a.akamaihd.net)",
       "Bash(go install *)",
       "Bash(golangci-lint *)",
-      "Bash(chmod +x *)"
+      "Bash(chmod +x *)",
+      "Bash(./scripts/check-all.sh *)",
+      "Bash(go test *)",
+      "Bash(~/go/bin/golangci-lint run *)",
+      "Bash(gofmt -l shared/domain/types.go shared/domain/types_test.go)",
+      "Bash(echo \"EXIT:$?\")",
+      "Bash(bash *)",
+      "Bash(gofmt -l shared/validation/validator.go shared/validation/validator_test.go)",
+      "Bash(gofmt *)",
+      "Bash(go clean *)",
+      "Bash(python3 *)",
+      "Bash(xxd /home/abdeljalil/Documents/Personal/Linkedin-L-Downloader/features/video/resolver_test.go)",
+      "Bash(find . *)"
     ]
   }
 }

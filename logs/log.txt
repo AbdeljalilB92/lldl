@@ -1,469 +1,390 @@
-time=2026-04-16T14:55:26.192+01:00 level=INFO msg="fetching video details" video=write-great-code-reviews-to-advance-your-career progress=1/30
-time=2026-04-16T14:55:27.844+01:00 level=INFO msg="fetching video details" video=what-you-need-to-know progress=2/30
-time=2026-04-16T14:55:29.476+01:00 level=INFO msg="fetching video details" video=what-is-a-code-review progress=3/30
-time=2026-04-16T14:55:31.132+01:00 level=INFO msg="fetching video details" video=code-reviews-in-the-software-development-life-cycle progress=4/30
-time=2026-04-16T14:55:32.932+01:00 level=INFO msg="fetching video details" video=who-should-review-code progress=5/30
-time=2026-04-16T14:55:34.674+01:00 level=INFO msg="fetching video details" video=how-long-should-a-code-review-really-take progress=6/30
-time=2026-04-16T14:55:36.414+01:00 level=INFO msg="fetching video details" video=understand-the-author-s-purpose progress=7/30
-time=2026-04-16T14:55:38.089+01:00 level=INFO msg="fetching video details" video=review-implementation-details progress=8/30
-time=2026-04-16T14:55:39.775+01:00 level=INFO msg="fetching video details" video=review-maintainability-and-design progress=9/30
-time=2026-04-16T14:55:41.423+01:00 level=INFO msg="fetching video details" video=review-unfamiliar-code progress=10/30
-time=2026-04-16T14:55:43.229+01:00 level=INFO msg="fetching video details" video=providing-constructive-feedback-23424348 progress=11/30
-time=2026-04-16T14:55:44.875+01:00 level=INFO msg="fetching video details" video=common-challenges-23424347 progress=12/30
-time=2026-04-16T14:55:46.501+01:00 level=INFO msg="fetching video details" video=using-ai-in-code-reviews-23435015 progress=13/30
-time=2026-04-16T14:55:48.179+01:00 level=INFO msg="fetching video details" video=find-code-to-review-on-github progress=14/30
-time=2026-04-16T14:55:49.901+01:00 level=INFO msg="fetching video details" video=test-code-on-a-local-machine progress=15/30
-time=2026-04-16T14:55:51.611+01:00 level=INFO msg="fetching video details" video=write-code-review-comments progress=16/30
-time=2026-04-16T14:55:53.404+01:00 level=INFO msg="fetching video details" video=approve-code progress=17/30
-time=2026-04-16T14:55:55.051+01:00 level=INFO msg="fetching video details" video=challenge-give-a-code-review progress=18/30
-time=2026-04-16T14:55:56.839+01:00 level=INFO msg="fetching video details" video=solution-give-a-code-review progress=19/30
-time=2026-04-16T14:55:58.494+01:00 level=INFO msg="fetching video details" video=scope-of-a-code-change progress=20/30
-time=2026-04-16T14:56:00.208+01:00 level=INFO msg="fetching video details" video=implement-a-code-change progress=21/30
-time=2026-04-16T14:56:01.891+01:00 level=INFO msg="fetching video details" video=commit-a-code-change progress=22/30
-time=2026-04-16T14:56:03.610+01:00 level=INFO msg="fetching video details" video=prepare-code-for-review progress=23/30
-time=2026-04-16T14:56:05.313+01:00 level=INFO msg="fetching video details" video=create-a-pull-request-pr progress=24/30
-time=2026-04-16T14:56:06.958+01:00 level=INFO msg="fetching video details" video=find-code-reviewers progress=25/30
-time=2026-04-16T14:56:08.607+01:00 level=INFO msg="fetching video details" video=handle-code-review-comments progress=26/30
-time=2026-04-16T14:56:10.301+01:00 level=INFO msg="fetching video details" video=respond-to-code-reviews-comments progress=27/30
-time=2026-04-16T14:56:11.942+01:00 level=INFO msg="fetching video details" video=challenge-add-a-feature-and-submit-a-pr progress=28/30
-time=2026-04-16T14:56:13.668+01:00 level=INFO msg="fetching video details" video=solution-add-a-feature-and-submit-a-pr progress=29/30
-time=2026-04-16T14:56:15.328+01:00 level=INFO msg="fetching video details" video=add-code-reviews-into-your-daily-job progress=30/30
-time=2026-04-16T14:56:16.006+01:00 level=INFO msg=Downloaded file="Subtitle: Write great code reviews to advance your career" progress=1/60
-time=2026-04-16T14:56:16.007+01:00 level=INFO msg=Downloaded file="Subtitle: What you need to know" progress=2/60
-time=2026-04-16T14:56:16.007+01:00 level=INFO msg=Downloaded file="Subtitle: What is a code review?" progress=3/60
-time=2026-04-16T14:56:16.299+01:00 level=INFO msg=Downloaded file="Video: What is a code review?" progress=4/60
-time=2026-04-16T14:56:16.299+01:00 level=INFO msg=Downloaded file="Subtitle: Code reviews in the software development life cycle" progress=5/60
-time=2026-04-16T14:56:16.300+01:00 level=INFO msg=Downloaded file="Video: What you need to know" progress=6/60
-time=2026-04-16T14:56:16.300+01:00 level=INFO msg=Downloaded file="Subtitle: Who should review code?" progress=7/60
-time=2026-04-16T14:56:16.933+01:00 level=INFO msg=Downloaded file="Video: Code reviews in the software development life cycle" progress=8/60
-time=2026-04-16T14:56:16.933+01:00 level=INFO msg=Downloaded file="Subtitle: How long should a code review really take" progress=9/60
-time=2026-04-16T14:56:18.060+01:00 level=INFO msg=Downloaded file="Video: Write great code reviews to advance your career" progress=10/60
-time=2026-04-16T14:56:18.060+01:00 level=INFO msg=Downloaded file="Subtitle: Understand the author’s purpose" progress=11/60
-time=2026-04-16T14:56:18.066+01:00 level=INFO msg=Downloaded file="Video: How long should a code review really take" progress=12/60
-time=2026-04-16T14:56:18.066+01:00 level=INFO msg=Downloaded file="Subtitle: Review implementation details" progress=13/60
-time=2026-04-16T14:56:18.071+01:00 level=INFO msg=Downloaded file="Video: Who should review code?" progress=14/60
-time=2026-04-16T14:56:18.071+01:00 level=INFO msg=Downloaded file="Subtitle: Review maintainability and design" progress=15/60
-time=2026-04-16T14:56:18.076+01:00 level=INFO msg=Downloaded file="Video: Understand the author’s purpose" progress=16/60
-time=2026-04-16T14:56:18.076+01:00 level=INFO msg=Downloaded file="Subtitle: Review unfamiliar code" progress=17/60
-time=2026-04-16T14:56:18.348+01:00 level=INFO msg=Downloaded file="Video: Review maintainability and design" progress=18/60
-time=2026-04-16T14:56:18.348+01:00 level=INFO msg=Downloaded file="Subtitle: Providing constructive feedback" progress=19/60
-time=2026-04-16T14:56:18.353+01:00 level=INFO msg=Downloaded file="Video: Providing constructive feedback" progress=20/60
-time=2026-04-16T14:56:18.353+01:00 level=INFO msg=Downloaded file="Subtitle: Common challenges" progress=21/60
-time=2026-04-16T14:56:18.708+01:00 level=INFO msg=Downloaded file="Video: Review unfamiliar code" progress=22/60
-time=2026-04-16T14:56:18.708+01:00 level=INFO msg=Downloaded file="Subtitle: Using AI in code reviews" progress=23/60
-time=2026-04-16T14:56:21.163+01:00 level=INFO msg=Downloaded file="Video: Review implementation details" progress=24/60
-time=2026-04-16T14:56:21.163+01:00 level=INFO msg=Downloaded file="Subtitle: Find code to review on GitHub" progress=25/60
-time=2026-04-16T14:56:21.182+01:00 level=INFO msg=Downloaded file="Video: Using AI in code reviews" progress=26/60
-time=2026-04-16T14:56:21.182+01:00 level=INFO msg=Downloaded file="Subtitle: Test code on a local machine" progress=27/60
-time=2026-04-16T14:56:21.186+01:00 level=INFO msg=Downloaded file="Video: Common challenges" progress=28/60
-time=2026-04-16T14:56:21.187+01:00 level=INFO msg=Downloaded file="Subtitle: Write code review comments" progress=29/60
-time=2026-04-16T14:56:21.550+01:00 level=INFO msg=Downloaded file="Video: Find code to review on GitHub" progress=30/60
-time=2026-04-16T14:56:21.550+01:00 level=INFO msg=Downloaded file="Subtitle: Approve code" progress=31/60
-time=2026-04-16T14:56:21.684+01:00 level=INFO msg=Downloaded file="Video: Test code on a local machine" progress=32/60
-time=2026-04-16T14:56:21.684+01:00 level=INFO msg=Downloaded file="Subtitle: Challenge: Give a code review" progress=33/60
-time=2026-04-16T14:56:21.814+01:00 level=INFO msg=Downloaded file="Video: Approve code" progress=34/60
-time=2026-04-16T14:56:21.814+01:00 level=INFO msg=Downloaded file="Subtitle: Solution: Give a code review" progress=35/60
-time=2026-04-16T14:56:22.173+01:00 level=INFO msg=Downloaded file="Video: Solution: Give a code review" progress=36/60
-time=2026-04-16T14:56:22.173+01:00 level=INFO msg=Downloaded file="Subtitle: Scope of a code change" progress=37/60
-time=2026-04-16T14:56:22.245+01:00 level=INFO msg=Downloaded file="Video: Write code review comments" progress=38/60
-time=2026-04-16T14:56:22.245+01:00 level=INFO msg=Downloaded file="Subtitle: Implement a code change" progress=39/60
-time=2026-04-16T14:56:23.130+01:00 level=INFO msg=Downloaded file="Video: Challenge: Give a code review" progress=40/60
-time=2026-04-16T14:56:23.130+01:00 level=INFO msg=Downloaded file="Subtitle: Commit a code change" progress=41/60
-time=2026-04-16T14:56:25.427+01:00 level=INFO msg=Downloaded file="Video: Scope of a code change" progress=42/60
-time=2026-04-16T14:56:25.427+01:00 level=INFO msg=Downloaded file="Subtitle: Prepare code for review" progress=43/60
-time=2026-04-16T14:56:25.551+01:00 level=INFO msg=Downloaded file="Video: Implement a code change" progress=44/60
-time=2026-04-16T14:56:25.551+01:00 level=INFO msg=Downloaded file="Subtitle: Create a pull request (PR)" progress=45/60
-time=2026-04-16T14:56:25.572+01:00 level=INFO msg=Downloaded file="Video: Commit a code change" progress=46/60
-time=2026-04-16T14:56:25.572+01:00 level=INFO msg=Downloaded file="Subtitle: Find code reviewers" progress=47/60
-time=2026-04-16T14:56:25.575+01:00 level=INFO msg=Downloaded file="Video: Prepare code for review" progress=48/60
-time=2026-04-16T14:56:25.575+01:00 level=INFO msg=Downloaded file="Subtitle: Handle code review comments" progress=49/60
-time=2026-04-16T14:56:25.743+01:00 level=INFO msg=Downloaded file="Video: Create a pull request (PR)" progress=50/60
-time=2026-04-16T14:56:25.744+01:00 level=INFO msg=Downloaded file="Subtitle: Respond to code reviews comments" progress=51/60
-time=2026-04-16T14:56:25.882+01:00 level=INFO msg=Downloaded file="Video: Handle code review comments" progress=52/60
-time=2026-04-16T14:56:25.882+01:00 level=INFO msg=Downloaded file="Subtitle: Challenge: Add a feature and submit a PR" progress=53/60
-time=2026-04-16T14:56:25.902+01:00 level=INFO msg=Downloaded file="Video: Find code reviewers" progress=54/60
-time=2026-04-16T14:56:25.902+01:00 level=INFO msg=Downloaded file="Subtitle: Solution: Add a feature and submit a PR" progress=55/60
-time=2026-04-16T14:56:26.030+01:00 level=INFO msg=Downloaded file="Video: Respond to code reviews comments" progress=56/60
-time=2026-04-16T14:56:26.030+01:00 level=INFO msg=Downloaded file="Subtitle: Add code reviews into your daily job" progress=57/60
-time=2026-04-16T14:56:26.057+01:00 level=INFO msg=Downloaded file="Video: Challenge: Add a feature and submit a PR" progress=58/60
-time=2026-04-16T14:56:26.063+01:00 level=INFO msg=Downloaded file="Video: Add code reviews into your daily job" progress=59/60
-time=2026-04-16T14:56:26.438+01:00 level=INFO msg=Downloaded file="Video: Solution: Add a feature and submit a PR" progress=60/60
-time=2026-04-16T15:11:52.169+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
-time=2026-04-16T15:11:54.229+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
-time=2026-04-16T15:11:56.283+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
-time=2026-04-16T15:11:58.319+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
-time=2026-04-16T15:12:00.361+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
-time=2026-04-16T15:12:02.371+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
-time=2026-04-16T15:12:04.337+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
-time=2026-04-16T15:12:06.639+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
-time=2026-04-16T15:12:08.680+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
-time=2026-04-16T15:12:10.663+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
-time=2026-04-16T15:12:12.766+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
-time=2026-04-16T15:12:14.784+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
-time=2026-04-16T15:12:16.803+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
-time=2026-04-16T15:12:18.797+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
-time=2026-04-16T15:12:20.862+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
-time=2026-04-16T15:12:22.943+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
-time=2026-04-16T15:12:24.981+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
-time=2026-04-16T15:12:26.950+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
-time=2026-04-16T15:12:29.096+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
-time=2026-04-16T15:12:31.320+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
-time=2026-04-16T15:12:32.424+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
-time=2026-04-16T15:12:32.424+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
-time=2026-04-16T15:12:32.424+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
-time=2026-04-16T15:12:33.338+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=4/41
-time=2026-04-16T15:12:33.338+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
-time=2026-04-16T15:12:38.543+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=6/41
-time=2026-04-16T15:12:38.544+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
-time=2026-04-16T15:12:38.605+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
-time=2026-04-16T15:12:38.605+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
-time=2026-04-16T15:12:38.626+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=10/41
-time=2026-04-16T15:12:38.626+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
-time=2026-04-16T15:12:38.704+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
-time=2026-04-16T15:12:38.704+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
-time=2026-04-16T15:12:39.282+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=14/41
-time=2026-04-16T15:12:39.282+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
-time=2026-04-16T15:12:41.956+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=16/41
-time=2026-04-16T15:12:41.956+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
-time=2026-04-16T15:12:42.390+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=18/41
-time=2026-04-16T15:12:42.391+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
-time=2026-04-16T15:12:42.512+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
-time=2026-04-16T15:12:42.512+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
-time=2026-04-16T15:12:44.056+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
-time=2026-04-16T15:12:44.056+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
-time=2026-04-16T15:12:44.119+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
-time=2026-04-16T15:12:44.119+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
-time=2026-04-16T15:12:45.202+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
-time=2026-04-16T15:12:45.202+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
-time=2026-04-16T15:12:45.226+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
-time=2026-04-16T15:12:45.226+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
-time=2026-04-16T15:12:45.266+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
-time=2026-04-16T15:12:45.266+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
-time=2026-04-16T15:12:45.376+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
-time=2026-04-16T15:12:45.376+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
-time=2026-04-16T15:12:45.432+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
-time=2026-04-16T15:12:45.432+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
-time=2026-04-16T15:12:45.772+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
-time=2026-04-16T15:12:45.772+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
-time=2026-04-16T15:12:45.838+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776363112_7600c73c2862e2e25efacad93d71c5b3\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
-time=2026-04-16T15:12:45.934+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=39/41
-time=2026-04-16T15:12:45.979+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=40/41
-time=2026-04-16T15:12:45.989+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
-time=2026-04-16T18:29:20.231+01:00 level=INFO msg="DEBUG: raw exerciseFiles from API" data="[{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776374960_5e46ff1ff4dfbfaea1a6cfb2e55b4b0e\"}]"
-time=2026-04-16T18:29:20.231+01:00 level=INFO msg="DEBUG: exercise file object keys" keys="[name url sizeInBytes]"
-time=2026-04-16T18:29:20.231+01:00 level=INFO msg="DEBUG: first exercise file object" data="{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776374960_5e46ff1ff4dfbfaea1a6cfb2e55b4b0e\"}"
-time=2026-04-16T18:29:20.231+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
-time=2026-04-16T18:29:22.269+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
-time=2026-04-16T18:29:24.293+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
-time=2026-04-16T18:29:26.609+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
-time=2026-04-16T18:29:29.085+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
-time=2026-04-16T18:29:31.326+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
-time=2026-04-16T18:29:33.569+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
-time=2026-04-16T18:29:35.833+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
-time=2026-04-16T18:29:38.117+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
-time=2026-04-16T18:29:40.167+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
-time=2026-04-16T18:29:42.613+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
-time=2026-04-16T18:29:44.785+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
-time=2026-04-16T18:29:47.308+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
-time=2026-04-16T18:29:49.509+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
-time=2026-04-16T18:29:52.276+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
-time=2026-04-16T18:29:54.295+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
-time=2026-04-16T18:29:56.606+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
-time=2026-04-16T18:29:58.652+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
-time=2026-04-16T18:30:00.721+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
-time=2026-04-16T18:30:02.958+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
-time=2026-04-16T18:30:04.030+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
-time=2026-04-16T18:30:04.030+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
-time=2026-04-16T18:30:04.031+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
-time=2026-04-16T18:30:04.516+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=4/41
-time=2026-04-16T18:30:04.516+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
-time=2026-04-16T18:30:04.524+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=6/41
-time=2026-04-16T18:30:04.524+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
-time=2026-04-16T18:30:04.632+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
-time=2026-04-16T18:30:04.632+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
-time=2026-04-16T18:30:04.801+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=10/41
-time=2026-04-16T18:30:04.801+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
-time=2026-04-16T18:30:04.942+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
-time=2026-04-16T18:30:04.942+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
-time=2026-04-16T18:30:05.098+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
-time=2026-04-16T18:30:05.098+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
-time=2026-04-16T18:30:05.199+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
-time=2026-04-16T18:30:05.199+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
-time=2026-04-16T18:30:05.331+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
-time=2026-04-16T18:30:05.331+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
-time=2026-04-16T18:30:05.485+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
-time=2026-04-16T18:30:05.485+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
-time=2026-04-16T18:30:05.678+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
-time=2026-04-16T18:30:05.678+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
-time=2026-04-16T18:30:05.749+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
-time=2026-04-16T18:30:05.749+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
-time=2026-04-16T18:30:05.922+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
-time=2026-04-16T18:30:05.922+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
-time=2026-04-16T18:30:05.959+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
-time=2026-04-16T18:30:05.959+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
-time=2026-04-16T18:30:06.083+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
-time=2026-04-16T18:30:06.083+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
-time=2026-04-16T18:30:06.248+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
-time=2026-04-16T18:30:06.248+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
-time=2026-04-16T18:30:06.299+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
-time=2026-04-16T18:30:06.299+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
-time=2026-04-16T18:30:06.518+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
-time=2026-04-16T18:30:06.518+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
-time=2026-04-16T18:30:06.542+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
-time=2026-04-16T18:30:06.582+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776374960_5e46ff1ff4dfbfaea1a6cfb2e55b4b0e\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
-time=2026-04-16T18:30:06.669+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=40/41
-time=2026-04-16T18:30:06.674+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
-time=2026-04-16T20:40:13.390+01:00 level=INFO msg="DEBUG: raw exerciseFiles from API" data="[{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776382813_21c737909c6a5f2c6a488ea1d6c4d1ed\"}]"
-time=2026-04-16T20:40:13.390+01:00 level=INFO msg="DEBUG: exercise file object keys" keys="[url sizeInBytes name]"
-time=2026-04-16T20:40:13.391+01:00 level=INFO msg="DEBUG: first exercise file object" data="{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776382813_21c737909c6a5f2c6a488ea1d6c4d1ed\"}"
-time=2026-04-16T20:40:13.391+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
-time=2026-04-16T20:40:15.413+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
-time=2026-04-16T20:40:17.523+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
-time=2026-04-16T20:40:19.529+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
-time=2026-04-16T20:40:21.513+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
-time=2026-04-16T20:40:23.673+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
-time=2026-04-16T20:40:25.636+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
-time=2026-04-16T20:40:27.648+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
-time=2026-04-16T20:40:29.729+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
-time=2026-04-16T20:40:31.784+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
-time=2026-04-16T20:40:33.748+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
-time=2026-04-16T20:40:35.916+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
-time=2026-04-16T20:40:37.914+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
-time=2026-04-16T20:40:39.917+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
-time=2026-04-16T20:40:41.868+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
-time=2026-04-16T20:40:44.152+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
-time=2026-04-16T20:40:46.212+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
-time=2026-04-16T20:40:48.333+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
-time=2026-04-16T20:40:50.518+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
-time=2026-04-16T20:40:52.483+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
-time=2026-04-16T20:40:53.642+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
-time=2026-04-16T20:40:53.642+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
-time=2026-04-16T20:40:53.642+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
-time=2026-04-16T20:40:54.786+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=4/41
-time=2026-04-16T20:40:54.786+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
-time=2026-04-16T20:40:55.088+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=6/41
-time=2026-04-16T20:40:55.088+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
-time=2026-04-16T20:40:55.101+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=8/41
-time=2026-04-16T20:40:55.101+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
-time=2026-04-16T20:40:55.724+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=10/41
-time=2026-04-16T20:40:55.725+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
-time=2026-04-16T20:40:56.053+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
-time=2026-04-16T20:40:56.053+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
-time=2026-04-16T20:40:56.300+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
-time=2026-04-16T20:40:56.300+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
-time=2026-04-16T20:40:56.568+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
-time=2026-04-16T20:40:56.568+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
-time=2026-04-16T20:40:56.887+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
-time=2026-04-16T20:40:56.888+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
-time=2026-04-16T20:40:57.251+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
-time=2026-04-16T20:40:57.251+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
-time=2026-04-16T20:40:57.640+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
-time=2026-04-16T20:40:57.641+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
-time=2026-04-16T20:40:57.744+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
-time=2026-04-16T20:40:57.745+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
-time=2026-04-16T20:40:57.860+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
-time=2026-04-16T20:40:57.860+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
-time=2026-04-16T20:40:57.941+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
-time=2026-04-16T20:40:57.941+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
-time=2026-04-16T20:40:58.483+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=30/41
-time=2026-04-16T20:40:58.484+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
-time=2026-04-16T20:40:58.663+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=32/41
-time=2026-04-16T20:40:58.663+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
-time=2026-04-16T20:40:58.994+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=34/41
-time=2026-04-16T20:40:58.994+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
-time=2026-04-16T20:40:59.381+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
-time=2026-04-16T20:40:59.381+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
-time=2026-04-16T20:40:59.421+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
-time=2026-04-16T20:40:59.460+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776382813_21c737909c6a5f2c6a488ea1d6c4d1ed\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
-time=2026-04-16T20:40:59.639+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=40/41
-time=2026-04-16T20:40:59.651+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
-time=2026-04-16T21:55:16.891+01:00 level=INFO msg="DEBUG: raw exerciseFiles from API" data="[{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387316_ee64be51b01965fdf2d6d6a42e4342b6\"}]"
-time=2026-04-16T21:55:16.894+01:00 level=INFO msg="DEBUG: exercise file object keys" keys="[name url sizeInBytes]"
-time=2026-04-16T21:55:16.895+01:00 level=INFO msg="DEBUG: first exercise file object" data="{\"name\":\"Ex_Files_Developer_to_Manager.zip\",\"sizeInBytes\":23771,\"url\":\"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387316_ee64be51b01965fdf2d6d6a42e4342b6\"}"
-time=2026-04-16T21:55:16.895+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
-time=2026-04-16T21:55:19.166+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
-time=2026-04-16T21:55:21.460+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
-time=2026-04-16T21:55:23.739+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
-time=2026-04-16T21:55:25.926+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
-time=2026-04-16T21:55:27.929+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
-time=2026-04-16T21:55:30.227+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
-time=2026-04-16T21:55:32.435+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
-time=2026-04-16T21:55:34.609+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
-time=2026-04-16T21:55:36.589+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
-time=2026-04-16T21:55:38.611+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
-time=2026-04-16T21:55:40.684+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
-time=2026-04-16T21:55:42.790+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
-time=2026-04-16T21:55:44.822+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
-time=2026-04-16T21:55:47.021+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
-time=2026-04-16T21:55:49.074+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
-time=2026-04-16T21:55:51.195+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
-time=2026-04-16T21:55:53.242+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
-time=2026-04-16T21:55:55.291+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
-time=2026-04-16T21:55:57.400+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
-time=2026-04-16T21:55:58.572+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
-time=2026-04-16T21:55:58.572+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
-time=2026-04-16T21:55:58.572+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
-time=2026-04-16T21:55:59.123+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=4/41
-time=2026-04-16T21:55:59.124+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
-time=2026-04-16T21:55:59.272+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=6/41
-time=2026-04-16T21:55:59.272+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
-time=2026-04-16T21:55:59.458+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
-time=2026-04-16T21:55:59.458+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
-time=2026-04-16T21:55:59.532+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=10/41
-time=2026-04-16T21:55:59.532+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
-time=2026-04-16T21:55:59.906+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
-time=2026-04-16T21:55:59.906+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
-time=2026-04-16T21:56:00.070+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
-time=2026-04-16T21:56:00.070+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
-time=2026-04-16T21:56:00.214+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
-time=2026-04-16T21:56:00.214+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
-time=2026-04-16T21:56:00.433+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
-time=2026-04-16T21:56:00.434+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
-time=2026-04-16T21:56:00.618+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
-time=2026-04-16T21:56:00.619+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
-time=2026-04-16T21:56:00.794+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
-time=2026-04-16T21:56:00.794+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
-time=2026-04-16T21:56:00.888+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
-time=2026-04-16T21:56:00.888+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
-time=2026-04-16T21:56:01.135+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
-time=2026-04-16T21:56:01.135+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
-time=2026-04-16T21:56:01.178+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
-time=2026-04-16T21:56:01.179+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
-time=2026-04-16T21:56:01.287+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
-time=2026-04-16T21:56:01.287+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
-time=2026-04-16T21:56:01.412+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
-time=2026-04-16T21:56:01.412+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
-time=2026-04-16T21:56:01.479+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
-time=2026-04-16T21:56:01.479+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
-time=2026-04-16T21:56:01.604+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
-time=2026-04-16T21:56:01.604+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
-time=2026-04-16T21:56:01.643+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
-time=2026-04-16T21:56:01.655+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=39/41
-time=2026-04-16T21:56:01.684+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387316_ee64be51b01965fdf2d6d6a42e4342b6\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
-time=2026-04-16T21:56:01.971+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=41/41
-time=2026-04-16T22:00:47.687+01:00 level=INFO msg="Found exercise files" count=1
-time=2026-04-16T22:00:47.687+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
-time=2026-04-16T22:00:49.660+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
-time=2026-04-16T22:00:51.637+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
-time=2026-04-16T22:00:53.586+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
-time=2026-04-16T22:00:55.620+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
-time=2026-04-16T22:00:57.719+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
-time=2026-04-16T22:00:59.738+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
-time=2026-04-16T22:01:01.938+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
-time=2026-04-16T22:01:03.959+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
-time=2026-04-16T22:01:05.938+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
-time=2026-04-16T22:01:08.050+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
-time=2026-04-16T22:01:10.049+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
-time=2026-04-16T22:01:12.082+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
-time=2026-04-16T22:01:14.056+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
-time=2026-04-16T22:01:16.036+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
-time=2026-04-16T22:01:17.993+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
-time=2026-04-16T22:01:20.073+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
-time=2026-04-16T22:01:22.069+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
-time=2026-04-16T22:01:24.069+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
-time=2026-04-16T22:01:26.023+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
-time=2026-04-16T22:01:28.458+01:00 level=INFO msg="No exercise files found in page HTML"
-time=2026-04-16T22:01:28.460+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
-time=2026-04-16T22:01:28.460+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
-time=2026-04-16T22:01:28.460+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
-time=2026-04-16T22:01:28.976+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=4/41
-time=2026-04-16T22:01:28.976+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
-time=2026-04-16T22:01:28.981+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=6/41
-time=2026-04-16T22:01:28.981+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
-time=2026-04-16T22:01:29.314+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=8/41
-time=2026-04-16T22:01:29.315+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
-time=2026-04-16T22:01:29.421+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=10/41
-time=2026-04-16T22:01:29.422+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
-time=2026-04-16T22:01:29.585+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
-time=2026-04-16T22:01:29.585+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
-time=2026-04-16T22:01:29.668+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
-time=2026-04-16T22:01:29.668+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
-time=2026-04-16T22:01:29.825+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
-time=2026-04-16T22:01:29.825+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
-time=2026-04-16T22:01:29.948+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
-time=2026-04-16T22:01:29.948+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
-time=2026-04-16T22:01:30.156+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
-time=2026-04-16T22:01:30.156+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
-time=2026-04-16T22:01:30.366+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
-time=2026-04-16T22:01:30.367+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
-time=2026-04-16T22:01:30.455+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
-time=2026-04-16T22:01:30.455+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
-time=2026-04-16T22:01:30.601+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
-time=2026-04-16T22:01:30.601+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
-time=2026-04-16T22:01:30.637+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
-time=2026-04-16T22:01:30.637+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
-time=2026-04-16T22:01:30.767+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
-time=2026-04-16T22:01:30.768+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
-time=2026-04-16T22:01:30.943+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
-time=2026-04-16T22:01:30.943+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
-time=2026-04-16T22:01:31.016+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
-time=2026-04-16T22:01:31.016+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
-time=2026-04-16T22:01:31.239+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
-time=2026-04-16T22:01:31.240+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
-time=2026-04-16T22:01:31.249+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
-time=2026-04-16T22:01:31.337+01:00 level=WARN msg="Skipped exercise file (dead CDN)" file="Exercise: Ex_Files_Developer_to_Manager.zip" error="downloading: Get \"https://lilcdn-a.akamaihd.net/secure/courses/2824111/exercises/Ex_Files_Developer_to_Manager.zip?hashval=1776387647_bce1c955ba1e8fc14a596fe23d093cf1\": dial tcp: lookup lilcdn-a.akamaihd.net on 192.168.1.1:53: no such host"
-time=2026-04-16T22:01:31.352+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=40/41
-time=2026-04-16T22:01:31.361+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=41/41
-time=2026-04-16T23:05:49.975+01:00 level=INFO msg="Found exercise files" count=1
-time=2026-04-16T23:05:49.976+01:00 level=INFO msg="fetching video details" video=moving-to-management progress=1/20
-time=2026-04-16T23:05:52.006+01:00 level=INFO msg="fetching video details" video=what-do-managers-do progress=2/20
-time=2026-04-16T23:05:54.878+01:00 level=INFO msg="fetching video details" video=skills-and-attributes-you-need-as-a-manager progress=3/20
-time=2026-04-16T23:05:56.900+01:00 level=INFO msg="fetching video details" video=holding-one-on-one-meetings progress=4/20
-time=2026-04-16T23:05:58.948+01:00 level=INFO msg="fetching video details" video=agendas-note-taking-and-documentation progress=5/20
-time=2026-04-16T23:06:01.124+01:00 level=INFO msg="fetching video details" video=reviews-and-assessments progress=6/20
-time=2026-04-16T23:06:03.209+01:00 level=INFO msg="fetching video details" video=shifting-your-mindset-from-coding-to-coaching progress=7/20
-time=2026-04-16T23:06:05.379+01:00 level=INFO msg="fetching video details" video=approach-technical-problems-as-a-manager progress=8/20
-time=2026-04-16T23:06:07.352+01:00 level=INFO msg="fetching video details" video=managing-junior-developers progress=9/20
-time=2026-04-16T23:06:09.428+01:00 level=INFO msg="fetching video details" video=managing-senior-developers progress=10/20
-time=2026-04-16T23:06:11.492+01:00 level=INFO msg="fetching video details" video=assess-tech-skills-outside-your-expertise progress=11/20
-time=2026-04-16T23:06:13.492+01:00 level=INFO msg="fetching video details" video=cross-team-collaboration progress=12/20
-time=2026-04-16T23:06:15.548+01:00 level=INFO msg="fetching video details" video=mentoring-as-an-engineering-manager progress=13/20
-time=2026-04-16T23:06:17.837+01:00 level=INFO msg="fetching video details" video=advocating-for-your-direct-reports progress=14/20
-time=2026-04-16T23:06:19.785+01:00 level=INFO msg="fetching video details" video=ethical-considerations-in-management progress=15/20
-time=2026-04-16T23:06:21.933+01:00 level=INFO msg="fetching video details" video=having-difficult-conversations progress=16/20
-time=2026-04-16T23:06:24.044+01:00 level=INFO msg="fetching video details" video=maintain-and-expand-your-technical-skills progress=17/20
-time=2026-04-16T23:06:26.059+01:00 level=INFO msg="fetching video details" video=growing-your-management-skills progress=18/20
-time=2026-04-16T23:06:28.065+01:00 level=INFO msg="fetching video details" video=setting-goals-with-your-team progress=19/20
-time=2026-04-16T23:06:30.172+01:00 level=INFO msg="fetching video details" video=tailoring-your-management-journey progress=20/20
-time=2026-04-16T23:06:32.781+01:00 level=INFO msg="Found exercise files with ambry URLs" count=1
-time=2026-04-16T23:06:32.781+01:00 level=INFO msg=Downloaded file="Subtitle: Moving to management" progress=1/41
-time=2026-04-16T23:06:32.781+01:00 level=INFO msg=Downloaded file="Subtitle: What do managers do?" progress=2/41
-time=2026-04-16T23:06:32.782+01:00 level=INFO msg=Downloaded file="Subtitle: Skills and attributes you need as a manager" progress=3/41
-time=2026-04-16T23:06:33.806+01:00 level=INFO msg=Downloaded file="Video: Holding one-on-one meetings" progress=4/41
-time=2026-04-16T23:06:33.806+01:00 level=INFO msg=Downloaded file="Subtitle: Holding one-on-one meetings" progress=5/41
-time=2026-04-16T23:06:34.112+01:00 level=INFO msg=Downloaded file="Video: What do managers do?" progress=6/41
-time=2026-04-16T23:06:34.113+01:00 level=INFO msg=Downloaded file="Subtitle: Agendas, note taking, and documentation" progress=7/41
-time=2026-04-16T23:06:34.324+01:00 level=INFO msg=Downloaded file="Video: Skills and attributes you need as a manager" progress=8/41
-time=2026-04-16T23:06:34.324+01:00 level=INFO msg=Downloaded file="Subtitle: Reviews and assessments" progress=9/41
-time=2026-04-16T23:06:34.382+01:00 level=INFO msg=Downloaded file="Video: Moving to management" progress=10/41
-time=2026-04-16T23:06:34.382+01:00 level=INFO msg=Downloaded file="Subtitle: Shifting your mindset from coding to coaching" progress=11/41
-time=2026-04-16T23:06:34.893+01:00 level=INFO msg=Downloaded file="Video: Agendas, note taking, and documentation" progress=12/41
-time=2026-04-16T23:06:34.893+01:00 level=INFO msg=Downloaded file="Subtitle: Approach technical problems as a manager" progress=13/41
-time=2026-04-16T23:06:35.132+01:00 level=INFO msg=Downloaded file="Video: Reviews and assessments" progress=14/41
-time=2026-04-16T23:06:35.132+01:00 level=INFO msg=Downloaded file="Subtitle: Managing junior developers" progress=15/41
-time=2026-04-16T23:06:35.388+01:00 level=INFO msg=Downloaded file="Video: Shifting your mindset from coding to coaching" progress=16/41
-time=2026-04-16T23:06:35.388+01:00 level=INFO msg=Downloaded file="Subtitle: Managing senior developers" progress=17/41
-time=2026-04-16T23:06:35.721+01:00 level=INFO msg=Downloaded file="Video: Approach technical problems as a manager" progress=18/41
-time=2026-04-16T23:06:35.722+01:00 level=INFO msg=Downloaded file="Subtitle: Assess tech skills outside your expertise" progress=19/41
-time=2026-04-16T23:06:36.099+01:00 level=INFO msg=Downloaded file="Video: Managing junior developers" progress=20/41
-time=2026-04-16T23:06:36.100+01:00 level=INFO msg=Downloaded file="Subtitle: Cross-team collaboration" progress=21/41
-time=2026-04-16T23:06:36.517+01:00 level=INFO msg=Downloaded file="Video: Managing senior developers" progress=22/41
-time=2026-04-16T23:06:36.517+01:00 level=INFO msg=Downloaded file="Subtitle: Mentoring as an engineering manager" progress=23/41
-time=2026-04-16T23:06:36.711+01:00 level=INFO msg=Downloaded file="Video: Assess tech skills outside your expertise" progress=24/41
-time=2026-04-16T23:06:36.711+01:00 level=INFO msg=Downloaded file="Subtitle: Advocating for your direct reports" progress=25/41
-time=2026-04-16T23:06:36.994+01:00 level=INFO msg=Downloaded file="Video: Cross-team collaboration" progress=26/41
-time=2026-04-16T23:06:36.994+01:00 level=INFO msg=Downloaded file="Subtitle: Ethical considerations in management" progress=27/41
-time=2026-04-16T23:06:37.108+01:00 level=INFO msg=Downloaded file="Video: Mentoring as an engineering manager" progress=28/41
-time=2026-04-16T23:06:37.108+01:00 level=INFO msg=Downloaded file="Subtitle: Having difficult conversations" progress=29/41
-time=2026-04-16T23:06:37.379+01:00 level=INFO msg=Downloaded file="Video: Advocating for your direct reports" progress=30/41
-time=2026-04-16T23:06:37.379+01:00 level=INFO msg=Downloaded file="Subtitle: Maintain and expand your technical skills" progress=31/41
-time=2026-04-16T23:06:37.742+01:00 level=INFO msg=Downloaded file="Video: Ethical considerations in management" progress=32/41
-time=2026-04-16T23:06:37.743+01:00 level=INFO msg=Downloaded file="Subtitle: Growing your management skills" progress=33/41
-time=2026-04-16T23:06:37.897+01:00 level=INFO msg=Downloaded file="Video: Having difficult conversations" progress=34/41
-time=2026-04-16T23:06:37.897+01:00 level=INFO msg=Downloaded file="Subtitle: Setting goals with your team" progress=35/41
-time=2026-04-16T23:06:38.298+01:00 level=INFO msg=Downloaded file="Video: Maintain and expand your technical skills" progress=36/41
-time=2026-04-16T23:06:38.298+01:00 level=INFO msg=Downloaded file="Subtitle: Tailoring your management journey" progress=37/41
-time=2026-04-16T23:06:38.346+01:00 level=INFO msg=Downloaded file="Video: Growing your management skills" progress=38/41
-time=2026-04-16T23:06:38.564+01:00 level=INFO msg=Downloaded file="Video: Setting goals with your team" progress=39/41
-time=2026-04-16T23:06:38.576+01:00 level=INFO msg=Downloaded file="Video: Tailoring your management journey" progress=40/41
-time=2026-04-16T23:06:38.580+01:00 level=INFO msg=Downloaded file="Exercise: Ex_Files_Developer_to_Manager.zip" progress=41/41
+time=2026-04-17T13:20:30.097+01:00 level=INFO msg="authentication successful" component=[Auth][Authenticate] enterprise=true csrf_set=true
+time=2026-04-17T14:18:18.355+01:00 level=INFO msg="authentication successful" component=[Auth][Authenticate] enterprise=true csrf_set=true
+time=2026-04-17T14:18:19.054+01:00 level=INFO msg="fetched course structure" component=[Course][Fetcher] slug=wordpress-ecommerce-2
+time=2026-04-17T14:18:19.055+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=build-an-ecommerce-store
+time=2026-04-17T14:18:19.706+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Build an ecommerce store" duration=33 transcriptLines=14
+time=2026-04-17T14:18:19.707+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=what-you-need-to-know
+time=2026-04-17T14:18:20.353+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="What you need to know" duration=31 transcriptLines=14
+time=2026-04-17T14:18:20.354+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=essential-ecommerce-features
+time=2026-04-17T14:18:20.985+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Essential ecommerce features" duration=260 transcriptLines=112
+time=2026-04-17T14:18:20.985+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=shipping-payment-and-taxes
+time=2026-04-17T14:18:21.832+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Shipping, payment, and taxes" duration=95 transcriptLines=39
+time=2026-04-17T14:18:21.833+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=overview-of-accepting-payment
+time=2026-04-17T14:18:22.477+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Overview of accepting payment" duration=189 transcriptLines=79
+time=2026-04-17T14:18:22.478+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=payment-gateways
+time=2026-04-17T14:18:23.256+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Payment gateways" duration=254 transcriptLines=112
+time=2026-04-17T14:18:23.257+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=paypal-apple-pay-and-amazon-pay
+time=2026-04-17T14:18:23.901+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="PayPal, Apple Pay, and Amazon Pay" duration=134 transcriptLines=55
+time=2026-04-17T14:18:23.901+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=pci-compliance
+time=2026-04-17T14:18:24.544+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="PCI compliance" duration=120 transcriptLines=52
+time=2026-04-17T14:18:24.545+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=select-a-shipping-method
+time=2026-04-17T14:18:25.255+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Select a shipping method" duration=171 transcriptLines=83
+time=2026-04-17T14:18:25.255+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=don-t-underestimate-free-shipping
+time=2026-04-17T14:18:25.996+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Don't underestimate free shipping" duration=88 transcriptLines=40
+time=2026-04-17T14:18:25.997+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=understanding-taxes
+time=2026-04-17T14:18:26.649+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Understanding taxes" duration=177 transcriptLines=73
+time=2026-04-17T14:18:26.650+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=collecting-eu-value-added-tax-vat
+time=2026-04-17T14:18:27.260+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Collecting EU value-added tax (VAT)" duration=131 transcriptLines=60
+time=2026-04-17T14:18:27.261+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=using-tax-services
+time=2026-04-17T14:18:27.907+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Using tax services" duration=74 transcriptLines=34
+time=2026-04-17T14:18:27.909+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=using-native-wordpress-platforms
+time=2026-04-17T14:18:28.598+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Using native WordPress platforms" duration=158 transcriptLines=74
+time=2026-04-17T14:18:28.598+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=using-third-party-platforms
+time=2026-04-17T14:18:29.270+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Using third-party platforms" duration=214 transcriptLines=94
+time=2026-04-17T14:18:29.271+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=choosing-a-business-model
+time=2026-04-17T14:18:29.965+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Choosing a business model" duration=200 transcriptLines=95
+time=2026-04-17T14:18:29.966+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=defining-your-audience
+time=2026-04-17T14:18:30.681+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Defining your audience" duration=241 transcriptLines=112
+time=2026-04-17T14:18:30.682+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=organizing-your-products
+time=2026-04-17T14:18:31.293+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Organizing your products" duration=241 transcriptLines=105
+time=2026-04-17T14:18:31.294+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=validate-your-product
+time=2026-04-17T14:18:31.875+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Validate your product" duration=200 transcriptLines=92
+time=2026-04-17T14:18:31.876+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=attract-traffic
+time=2026-04-17T14:18:32.526+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Attract traffic" duration=201 transcriptLines=91
+time=2026-04-17T14:18:32.527+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=increase-your-average-order-value
+time=2026-04-17T14:18:33.153+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Increase your average order value" duration=123 transcriptLines=53
+time=2026-04-17T14:18:33.154+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=understanding-customer-lifetime-value
+time=2026-04-17T14:18:33.825+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Understanding customer lifetime value" duration=141 transcriptLines=67
+time=2026-04-17T14:18:33.826+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=increasing-clv-with-repeat-customers
+time=2026-04-17T14:18:34.534+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Increasing CLV with repeat customers" duration=167 transcriptLines=76
+time=2026-04-17T14:18:34.535+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=testing-your-site
+time=2026-04-17T14:18:35.245+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Testing your site" duration=152 transcriptLines=74
+time=2026-04-17T14:18:35.245+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=optimizing-your-site
+time=2026-04-17T14:18:35.958+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Optimizing your site" duration=197 transcriptLines=90
+time=2026-04-17T14:18:35.958+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=next-steps
+time=2026-04-17T14:18:36.672+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Next steps" duration=71 transcriptLines=30
+time=2026-04-17T14:18:36.685+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/Build an ecommerce store (transcript)" progress=1/52
+time=2026-04-17T14:18:36.685+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/What you need to know (transcript)" progress=2/52
+time=2026-04-17T14:18:36.686+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Essential ecommerce features (transcript)" progress=3/52
+time=2026-04-17T14:18:36.996+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/What you need to know" progress=4/52
+time=2026-04-17T14:18:36.996+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Shipping, payment, and taxes (transcript)" progress=5/52
+time=2026-04-17T14:18:37.042+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Shipping, payment, and taxes" progress=6/52
+time=2026-04-17T14:18:37.043+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Overview of accepting payment (transcript)" progress=7/52
+time=2026-04-17T14:18:37.045+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/Build an ecommerce store" progress=8/52
+time=2026-04-17T14:18:37.045+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Payment gateways (transcript)" progress=9/52
+time=2026-04-17T14:18:37.178+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Overview of accepting payment" progress=10/52
+time=2026-04-17T14:18:37.178+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PayPal, Apple Pay, and Amazon Pay (transcript)" progress=11/52
+time=2026-04-17T14:18:37.369+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PayPal, Apple Pay, and Amazon Pay" progress=12/52
+time=2026-04-17T14:18:37.369+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PCI compliance (transcript)" progress=13/52
+time=2026-04-17T14:18:37.528+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PCI compliance" progress=14/52
+time=2026-04-17T14:18:37.528+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Select a shipping method (transcript)" progress=15/52
+time=2026-04-17T14:18:37.554+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Select a shipping method" progress=16/52
+time=2026-04-17T14:18:37.555+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Don't underestimate free shipping (transcript)" progress=17/52
+time=2026-04-17T14:18:37.794+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Understanding taxes" progress=18/52
+time=2026-04-17T14:18:37.795+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Understanding taxes (transcript)" progress=19/52
+time=2026-04-17T14:18:37.872+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Don't underestimate free shipping" progress=20/52
+time=2026-04-17T14:18:37.872+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Collecting EU value-added tax (VAT) (transcript)" progress=21/52
+time=2026-04-17T14:18:38.068+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Using tax services" progress=22/52
+time=2026-04-17T14:18:38.068+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Using tax services (transcript)" progress=23/52
+time=2026-04-17T14:18:38.277+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using native WordPress platforms" progress=24/52
+time=2026-04-17T14:18:38.278+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using native WordPress platforms (transcript)" progress=25/52
+time=2026-04-17T14:18:38.335+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Collecting EU value-added tax (VAT)" progress=26/52
+time=2026-04-17T14:18:38.336+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using third-party platforms (transcript)" progress=27/52
+time=2026-04-17T14:18:38.727+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using third-party platforms" progress=28/52
+time=2026-04-17T14:18:38.727+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Choosing a business model (transcript)" progress=29/52
+time=2026-04-17T14:18:38.762+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Choosing a business model" progress=30/52
+time=2026-04-17T14:18:38.762+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Defining your audience (transcript)" progress=31/52
+time=2026-04-17T14:18:39.030+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Organizing your products" progress=32/52
+time=2026-04-17T14:18:39.030+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Organizing your products (transcript)" progress=33/52
+time=2026-04-17T14:18:39.034+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Defining your audience" progress=34/52
+time=2026-04-17T14:18:39.034+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Validate your product (transcript)" progress=35/52
+time=2026-04-17T14:18:39.299+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Attract traffic" progress=36/52
+time=2026-04-17T14:18:39.299+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Attract traffic (transcript)" progress=37/52
+time=2026-04-17T14:18:39.397+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Validate your product" progress=38/52
+time=2026-04-17T14:18:39.397+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increase your average order value (transcript)" progress=39/52
+time=2026-04-17T14:18:39.441+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increase your average order value" progress=40/52
+time=2026-04-17T14:18:39.441+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Understanding customer lifetime value (transcript)" progress=41/52
+time=2026-04-17T14:18:39.631+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Understanding customer lifetime value" progress=42/52
+time=2026-04-17T14:18:39.631+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increasing CLV with repeat customers (transcript)" progress=43/52
+time=2026-04-17T14:18:39.638+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increasing CLV with repeat customers" progress=44/52
+time=2026-04-17T14:18:39.638+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Testing your site (transcript)" progress=45/52
+time=2026-04-17T14:18:39.900+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Optimizing your site" progress=46/52
+time=2026-04-17T14:18:39.901+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Optimizing your site (transcript)" progress=47/52
+time=2026-04-17T14:18:40.821+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Essential ecommerce features" progress=48/52
+time=2026-04-17T14:18:40.822+01:00 level=INFO msg=Downloaded component=[Download] file="Conclusion/Next steps (transcript)" progress=49/52
+time=2026-04-17T14:18:41.139+01:00 level=INFO msg=Downloaded component=[Download] file="Conclusion/Next steps" progress=50/52
+time=2026-04-17T14:18:41.391+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Payment gateways" progress=51/52
+time=2026-04-17T14:18:41.391+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Testing your site" progress=52/52
+time=2026-04-17T14:39:11.461+01:00 level=INFO msg="authentication successful" component=[Auth][Authenticate] enterprise=true csrf_set=true
+time=2026-04-17T14:39:11.853+01:00 level=INFO msg="fetched course structure" component=[Course][Fetcher] slug=ai-agents-for-cybersecurity
+time=2026-04-17T14:39:11.854+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=welcome-and-course-goals
+time=2026-04-17T14:39:12.239+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Welcome and course goals" duration=245 transcriptLines=65
+time=2026-04-17T14:39:12.239+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=chapter-introduction-31646209
+time=2026-04-17T14:39:12.625+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Chapter introduction" duration=171 transcriptLines=51
+time=2026-04-17T14:39:12.625+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=the-transformative-potential-of-ai-and-llms-in-cybersecurity
+time=2026-04-17T14:39:12.985+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="The transformative potential of AI and LLMs in cybersecurity" duration=358 transcriptLines=85
+time=2026-04-17T14:39:12.986+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=defining-large-language-models-llms-and-their-architectures
+time=2026-04-17T14:39:13.342+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Defining large language models (LLMs) and their architectures" duration=630 transcriptLines=168
+time=2026-04-17T14:39:13.343+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=evolution-of-ai-in-cybersecurity-from-ml-to-agentic-ai
+time=2026-04-17T14:39:13.736+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Evolution of AI in cybersecurity: From ML to agentic AI" duration=364 transcriptLines=91
+time=2026-04-17T14:39:13.736+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=what-are-ai-agents-definition-characteristics-and-workflow
+time=2026-04-17T14:39:14.178+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="What are AI agents? Definition, characteristics, and workflow" duration=338 transcriptLines=83
+time=2026-04-17T14:39:14.179+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=llms-as-the-brain-of-ai-agents-capabilities-and-limitations
+time=2026-04-17T14:39:14.611+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="LLMs as the “brain” of AI agents: Capabilities and limitations" duration=428 transcriptLines=105
+time=2026-04-17T14:39:14.612+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=agent-autonomy-levels-in-cybersecurity
+time=2026-04-17T14:39:15.011+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Agent autonomy levels in cybersecurity" duration=360 transcriptLines=101
+time=2026-04-17T14:39:15.012+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=multi-agent-systems-collaboration-and-complexity
+time=2026-04-17T14:39:15.358+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Multi-agent systems: Collaboration and complexity" duration=324 transcriptLines=76
+time=2026-04-17T14:39:15.359+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=memory-and-learning-in-ai-agents
+time=2026-04-17T14:39:15.757+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Memory and learning in AI agents" duration=274 transcriptLines=78
+time=2026-04-17T14:39:15.757+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=adapting-llms-for-cybersecurity-fine-tuning-prompt-engineering-and-augmentation
+time=2026-04-17T14:39:16.155+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Adapting LLMs for cybersecurity: Fine-tuning, prompt engineering, and augmentation" duration=351 transcriptLines=94
+time=2026-04-17T14:39:16.155+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=types-of-datasets-in-llm-for-security-code-based-text-based-and-combined
+time=2026-04-17T14:39:16.545+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Types of datasets in LLM for security: Code-based, text-based, and combined" duration=455 transcriptLines=116
+time=2026-04-17T14:39:16.546+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=data-pre-processing-and-representation-for-cybersecurity-ai-models
+time=2026-04-17T14:39:16.895+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Data pre-processing and representation for cybersecurity AI models" duration=485 transcriptLines=112
+time=2026-04-17T14:39:16.896+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=addressing-data-scarcity-llms-for-data-augmentation-in-cybersecurity
+time=2026-04-17T14:39:17.238+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Addressing data scarcity: LLMs for data augmentation in cybersecurity" duration=117 transcriptLines=31
+time=2026-04-17T14:39:17.238+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=chapter-introduction-31627729
+time=2026-04-17T14:39:17.588+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Chapter introduction" duration=161 transcriptLines=50
+time=2026-04-17T14:39:17.589+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=real-time-detection-of-cyber-threats-with-ai
+time=2026-04-17T14:39:17.932+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Real-time detection of cyber threats with AI" duration=337 transcriptLines=88
+time=2026-04-17T14:39:17.933+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=automated-vulnerability-detection-and-analysis
+time=2026-04-17T14:39:18.288+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Automated vulnerability detection and analysis" duration=349 transcriptLines=87
+time=2026-04-17T14:39:18.289+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=malware-analysis-and-classification-with-ai-agents
+time=2026-04-17T14:39:18.664+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Malware analysis and classification with AI agents" duration=330 transcriptLines=88
+time=2026-04-17T14:39:18.664+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=network-intrusion-detection-and-attack-classification
+time=2026-04-17T14:39:19.041+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Network intrusion detection and attack classification" duration=309 transcriptLines=77
+time=2026-04-17T14:39:19.041+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=detecting-and-defending-against-phishing-attacks-and-deceptive-language
+time=2026-04-17T14:39:19.439+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Detecting and defending against phishing attacks and deceptive language" duration=304 transcriptLines=78
+time=2026-04-17T14:39:19.439+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=leveraging-ai-for-threat-intelligence-and-attack-surface-management
+time=2026-04-17T14:39:19.835+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Leveraging AI for threat intelligence and attack surface management" duration=337 transcriptLines=86
+time=2026-04-17T14:39:19.836+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=ai-for-system-log-analysis-and-anomaly-detection
+time=2026-04-17T14:39:20.183+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="AI for System Log Analysis and Anomaly Detection" duration=338 transcriptLines=88
+time=2026-04-17T14:39:20.183+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=reverse-engineering-and-binary-analysis-with-ai-assistance
+time=2026-04-17T14:39:20.533+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Reverse Engineering and Binary Analysis with AI Assistance" duration=353 transcriptLines=103
+time=2026-04-17T14:39:20.536+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=ai-for-understanding-security-and-privacy-policies
+time=2026-04-17T14:39:20.939+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="AI for understanding security and privacy policies" duration=385 transcriptLines=112
+time=2026-04-17T14:39:20.941+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=chapter-introduction-31649110
+time=2026-04-17T14:39:21.334+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Chapter introduction" duration=160 transcriptLines=40
+time=2026-04-17T14:39:21.335+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=automating-vulnerability-repair-and-patch-generation
+time=2026-04-17T14:39:21.698+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Automating vulnerability repair and patch generation" duration=328 transcriptLines=84
+time=2026-04-17T14:39:21.699+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=streamlining-incident-response-workflows-and-playbooks
+time=2026-04-17T14:39:22.048+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Streamlining incident response workflows and playbooks" duration=341 transcriptLines=91
+time=2026-04-17T14:39:22.049+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=post-attack-analysis-and-root-cause-identification-with-ai
+time=2026-04-17T14:39:22.432+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Post-attack analysis and root cause identification with AI" duration=365 transcriptLines=96
+time=2026-04-17T14:39:22.432+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=ai-for-proactive-defence-and-threat-hunting
+time=2026-04-17T14:39:22.786+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="AI for proactive defense and threat hunting" duration=277 transcriptLines=72
+time=2026-04-17T14:39:22.787+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=ai-powered-risk-management-and-predictive-analytics
+time=2026-04-17T14:39:23.188+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="AI-powered risk management and predictive analytics" duration=318 transcriptLines=79
+time=2026-04-17T14:39:23.189+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=optimizing-cybersecurity-investments-and-compliance-automation
+time=2026-04-17T14:39:23.597+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Optimizing cybersecurity investments and compliance automation" duration=372 transcriptLines=100
+time=2026-04-17T14:39:23.597+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=adaptive-decision-making-and-continuous-learning-in-soc-agents
+time=2026-04-17T14:39:23.957+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Adaptive decision-making and continuous learning in SOC agents" duration=355 transcriptLines=102
+time=2026-04-17T14:39:23.958+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=chapter-introduction
+time=2026-04-17T14:39:24.336+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Chapter introduction" duration=170 transcriptLines=49
+time=2026-04-17T14:39:24.337+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=overview-of-ai-agent-security-challenges-the-four-knowledge-gaps
+time=2026-04-17T14:39:24.693+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Overview of AI agent security challenges: The four knowledge gaps" duration=343 transcriptLines=85
+time=2026-04-17T14:39:24.693+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=inherent-ai-related-vulnerabilities-adversarial-ai-data-poisoning-and-misalignment
+time=2026-04-17T14:39:25.051+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Inherent AI-related vulnerabilities: Adversarial AI, data poisoning, and misalignment" duration=363 transcriptLines=100
+time=2026-04-17T14:39:25.052+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=agent-specific-threats-prompt-injection-jailbreaking-and-supply-chain-vulnerabilities
+time=2026-04-17T14:39:25.424+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Agent-specific threats: Prompt injection, jailbreaking, and supply chain vulnerabilities" duration=297 transcriptLines=83
+time=2026-04-17T14:39:25.424+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=challenges-in-llm-interpretability-trustworthiness-and-ethical-usage
+time=2026-04-17T14:39:25.776+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Challenges in LLM interpretability, trustworthiness, and ethical usage" duration=128 transcriptLines=34
+time=2026-04-17T14:39:25.777+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=addressing-bias-and-fairness-in-ai-agents
+time=2026-04-17T14:39:26.164+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Addressing bias and fairness in AI agents" duration=289 transcriptLines=85
+time=2026-04-17T14:39:26.165+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=designing-responsible-ai-governance-models-and-human-in-the-loop-hitl
+time=2026-04-17T14:39:26.553+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Designing responsible AI: Governance models and human-in-the-loop (HITL)" duration=281 transcriptLines=77
+time=2026-04-17T14:39:26.553+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=expanding-llm-capabilities-and-multimodal-ai
+time=2026-04-17T14:39:26.923+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Expanding LLM capabilities and multimodal AI" duration=296 transcriptLines=84
+time=2026-04-17T14:39:26.924+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=security-for-llms-and-proactive-self-defence
+time=2026-04-17T14:39:27.280+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Security for LLMs and proactive self-defense" duration=297 transcriptLines=83
+time=2026-04-17T14:39:27.280+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=the-roadmap-for-ai-agents-in-cybersecurity-opportunities-and-future-research
+time=2026-04-17T14:39:27.632+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="The roadmap for AI agents in cybersecurity: Opportunities and future research" duration=309 transcriptLines=88
+time=2026-04-17T14:39:27.632+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=ai-agents-for-cybersecurity video=course-wrap-up-video
+time=2026-04-17T14:39:27.990+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Course wrap-up video" duration=133 transcriptLines=34
+time=2026-04-17T14:39:27.990+01:00 level=INFO msg="resolving exercise files" component=[Exercise][Resolve] course=ai-agents-for-cybersecurity video=welcome-and-course-goals
+time=2026-04-17T14:39:29.645+01:00 level=INFO msg="exercise files resolved" component=[Exercise][Resolve] count=1
+time=2026-04-17T14:39:29.648+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/Welcome and course goals (transcript)" progress=1/87
+time=2026-04-17T14:39:29.648+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/Chapter introduction (transcript)" progress=2/87
+time=2026-04-17T14:39:29.648+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/The transformative potential of AI and LLMs in cybersecurity (transcript)" progress=3/87
+time=2026-04-17T14:39:30.352+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/Welcome and course goals" progress=4/87
+time=2026-04-17T14:39:30.353+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/Defining large language models (LLMs) and their architectures (transcript)" progress=5/87
+time=2026-04-17T14:39:35.248+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/Chapter introduction" progress=6/87
+time=2026-04-17T14:39:35.249+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/Evolution of AI in cybersecurity: From ML to agentic AI (transcript)" progress=7/87
+time=2026-04-17T14:39:35.302+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/The transformative potential of AI and LLMs in cybersecurity" progress=8/87
+time=2026-04-17T14:39:35.302+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/What are AI agents? Definition, characteristics, and workflow (transcript)" progress=9/87
+time=2026-04-17T14:39:35.772+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/What are AI agents? Definition, characteristics, and workflow" progress=10/87
+time=2026-04-17T14:39:35.772+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/LLMs as the “brain” of AI agents: Capabilities and limitations (transcript)" progress=11/87
+time=2026-04-17T14:39:38.588+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/Evolution of AI in cybersecurity: From ML to agentic AI" progress=12/87
+time=2026-04-17T14:39:38.588+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Agent autonomy levels in cybersecurity (transcript)" progress=13/87
+time=2026-04-17T14:39:42.208+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Agent autonomy levels in cybersecurity" progress=14/87
+time=2026-04-17T14:39:42.209+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Multi-agent systems: Collaboration and complexity (transcript)" progress=15/87
+time=2026-04-17T14:39:42.369+01:00 level=INFO msg=Downloaded component=[Download] file="1. Introduction to AI and LLMs in Cybersecurity/Defining large language models (LLMs) and their architectures" progress=16/87
+time=2026-04-17T14:39:42.369+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Memory and learning in AI agents (transcript)" progress=17/87
+time=2026-04-17T14:39:43.668+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/LLMs as the “brain” of AI agents: Capabilities and limitations" progress=18/87
+time=2026-04-17T14:39:43.668+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Adapting LLMs for cybersecurity: Fine-tuning, prompt engineering, and augmentation (transcript)" progress=19/87
+time=2026-04-17T14:39:43.924+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Multi-agent systems: Collaboration and complexity" progress=20/87
+time=2026-04-17T14:39:43.924+01:00 level=INFO msg=Downloaded component=[Download] file="3. Datasets and Data Handling for AI Agents in Cybersecurity/Types of datasets in LLM for security: Code-based, text-based, and combined (transcript)" progress=21/87
+time=2026-04-17T14:39:47.562+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Memory and learning in AI agents" progress=22/87
+time=2026-04-17T14:39:47.562+01:00 level=INFO msg=Downloaded component=[Download] file="3. Datasets and Data Handling for AI Agents in Cybersecurity/Data pre-processing and representation for cybersecurity AI models (transcript)" progress=23/87
+time=2026-04-17T14:39:49.115+01:00 level=INFO msg=Downloaded component=[Download] file="2. Core Concepts of AI Agents/Adapting LLMs for cybersecurity: Fine-tuning, prompt engineering, and augmentation" progress=24/87
+time=2026-04-17T14:39:49.116+01:00 level=INFO msg=Downloaded component=[Download] file="3. Datasets and Data Handling for AI Agents in Cybersecurity/Addressing data scarcity: LLMs for data augmentation in cybersecurity (transcript)" progress=25/87
+time=2026-04-17T14:39:49.796+01:00 level=INFO msg=Downloaded component=[Download] file="3. Datasets and Data Handling for AI Agents in Cybersecurity/Data pre-processing and representation for cybersecurity AI models" progress=26/87
+time=2026-04-17T14:39:49.796+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Chapter introduction (transcript)" progress=27/87
+time=2026-04-17T14:39:51.080+01:00 level=INFO msg=Downloaded component=[Download] file="3. Datasets and Data Handling for AI Agents in Cybersecurity/Types of datasets in LLM for security: Code-based, text-based, and combined" progress=28/87
+time=2026-04-17T14:39:51.080+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Real-time detection of cyber threats with AI (transcript)" progress=29/87
+time=2026-04-17T14:39:52.150+01:00 level=INFO msg=Downloaded component=[Download] file="3. Datasets and Data Handling for AI Agents in Cybersecurity/Addressing data scarcity: LLMs for data augmentation in cybersecurity" progress=30/87
+time=2026-04-17T14:39:52.150+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Automated vulnerability detection and analysis (transcript)" progress=31/87
+time=2026-04-17T14:39:55.266+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Real-time detection of cyber threats with AI" progress=32/87
+time=2026-04-17T14:39:55.266+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Malware analysis and classification with AI agents (transcript)" progress=33/87
+time=2026-04-17T14:39:55.478+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Chapter introduction" progress=34/87
+time=2026-04-17T14:39:55.479+01:00 level=INFO msg=Downloaded component=[Download] file="5. AI Agents in Network and Social Engineering Security/Network intrusion detection and attack classification (transcript)" progress=35/87
+time=2026-04-17T14:39:57.012+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Automated vulnerability detection and analysis" progress=36/87
+time=2026-04-17T14:39:57.012+01:00 level=INFO msg=Downloaded component=[Download] file="5. AI Agents in Network and Social Engineering Security/Detecting and defending against phishing attacks and deceptive language (transcript)" progress=37/87
+time=2026-04-17T14:40:01.199+01:00 level=INFO msg=Downloaded component=[Download] file="4. AI Agents in Threat Detection/Malware analysis and classification with AI agents" progress=38/87
+time=2026-04-17T14:40:01.199+01:00 level=INFO msg=Downloaded component=[Download] file="5. AI Agents in Network and Social Engineering Security/Leveraging AI for threat intelligence and attack surface management (transcript)" progress=39/87
+time=2026-04-17T14:40:01.357+01:00 level=INFO msg=Downloaded component=[Download] file="5. AI Agents in Network and Social Engineering Security/Network intrusion detection and attack classification" progress=40/87
+time=2026-04-17T14:40:01.357+01:00 level=INFO msg=Downloaded component=[Download] file="6. Advanced Analysis Capabilities/AI for System Log Analysis and Anomaly Detection (transcript)" progress=41/87
+time=2026-04-17T14:40:01.424+01:00 level=INFO msg=Downloaded component=[Download] file="5. AI Agents in Network and Social Engineering Security/Detecting and defending against phishing attacks and deceptive language" progress=42/87
+time=2026-04-17T14:40:01.425+01:00 level=INFO msg=Downloaded component=[Download] file="6. Advanced Analysis Capabilities/Reverse Engineering and Binary Analysis with AI Assistance (transcript)" progress=43/87
+time=2026-04-17T14:40:01.907+01:00 level=INFO msg=Downloaded component=[Download] file="6. Advanced Analysis Capabilities/Reverse Engineering and Binary Analysis with AI Assistance" progress=44/87
+time=2026-04-17T14:40:01.907+01:00 level=INFO msg=Downloaded component=[Download] file="6. Advanced Analysis Capabilities/AI for understanding security and privacy policies (transcript)" progress=45/87
+time=2026-04-17T14:40:01.993+01:00 level=INFO msg=Downloaded component=[Download] file="6. Advanced Analysis Capabilities/AI for understanding security and privacy policies" progress=46/87
+time=2026-04-17T14:40:01.993+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Chapter introduction (transcript)" progress=47/87
+time=2026-04-17T14:40:02.286+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Chapter introduction" progress=48/87
+time=2026-04-17T14:40:02.287+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Automating vulnerability repair and patch generation (transcript)" progress=49/87
+time=2026-04-17T14:40:02.540+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Automating vulnerability repair and patch generation" progress=50/87
+time=2026-04-17T14:40:02.540+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Streamlining incident response workflows and playbooks (transcript)" progress=51/87
+time=2026-04-17T14:40:02.839+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Streamlining incident response workflows and playbooks" progress=52/87
+time=2026-04-17T14:40:02.839+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Post-attack analysis and root cause identification with AI (transcript)" progress=53/87
+time=2026-04-17T14:40:02.941+01:00 level=INFO msg=Downloaded component=[Download] file="7. AI Agents in Incident Response/Post-attack analysis and root cause identification with AI" progress=54/87
+time=2026-04-17T14:40:02.941+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/AI for proactive defense and threat hunting (transcript)" progress=55/87
+time=2026-04-17T14:40:03.243+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/AI for proactive defense and threat hunting" progress=56/87
+time=2026-04-17T14:40:03.243+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/AI-powered risk management and predictive analytics (transcript)" progress=57/87
+time=2026-04-17T14:40:03.316+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/AI-powered risk management and predictive analytics" progress=58/87
+time=2026-04-17T14:40:03.317+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/Optimizing cybersecurity investments and compliance automation (transcript)" progress=59/87
+time=2026-04-17T14:40:03.705+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/Adaptive decision-making and continuous learning in SOC agents" progress=60/87
+time=2026-04-17T14:40:03.705+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/Adaptive decision-making and continuous learning in SOC agents (transcript)" progress=61/87
+time=2026-04-17T14:40:03.804+01:00 level=INFO msg=Downloaded component=[Download] file="5. AI Agents in Network and Social Engineering Security/Leveraging AI for threat intelligence and attack surface management" progress=62/87
+time=2026-04-17T14:40:03.805+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Chapter introduction (transcript)" progress=63/87
+time=2026-04-17T14:40:04.029+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Chapter introduction" progress=64/87
+time=2026-04-17T14:40:04.030+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Overview of AI agent security challenges: The four knowledge gaps (transcript)" progress=65/87
+time=2026-04-17T14:40:04.443+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Overview of AI agent security challenges: The four knowledge gaps" progress=66/87
+time=2026-04-17T14:40:04.444+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Inherent AI-related vulnerabilities: Adversarial AI, data poisoning, and misalignment (transcript)" progress=67/87
+time=2026-04-17T14:40:04.489+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Inherent AI-related vulnerabilities: Adversarial AI, data poisoning, and misalignment" progress=68/87
+time=2026-04-17T14:40:04.489+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Agent-specific threats: Prompt injection, jailbreaking, and supply chain vulnerabilities (transcript)" progress=69/87
+time=2026-04-17T14:40:04.826+01:00 level=INFO msg=Downloaded component=[Download] file="10. Ethical Considerations and Governance Frameworks/Challenges in LLM interpretability, trustworthiness, and ethical usage" progress=70/87
+time=2026-04-17T14:40:04.826+01:00 level=INFO msg=Downloaded component=[Download] file="10. Ethical Considerations and Governance Frameworks/Challenges in LLM interpretability, trustworthiness, and ethical usage (transcript)" progress=71/87
+time=2026-04-17T14:40:04.912+01:00 level=INFO msg=Downloaded component=[Download] file="9. Security Risks and Vulnerabilities of AI Agents/Agent-specific threats: Prompt injection, jailbreaking, and supply chain vulnerabilities" progress=72/87
+time=2026-04-17T14:40:04.913+01:00 level=INFO msg=Downloaded component=[Download] file="10. Ethical Considerations and Governance Frameworks/Addressing bias and fairness in AI agents (transcript)" progress=73/87
+time=2026-04-17T14:40:05.058+01:00 level=INFO msg=Downloaded component=[Download] file="8. Enhancing Security Operations Centres (SOCs) with Agentic AI/Optimizing cybersecurity investments and compliance automation" progress=74/87
+time=2026-04-17T14:40:05.059+01:00 level=INFO msg=Downloaded component=[Download] file="10. Ethical Considerations and Governance Frameworks/Designing responsible AI: Governance models and human-in-the-loop (HITL) (transcript)" progress=75/87
+time=2026-04-17T14:40:05.391+01:00 level=INFO msg=Downloaded component=[Download] file="10. Ethical Considerations and Governance Frameworks/Addressing bias and fairness in AI agents" progress=76/87
+time=2026-04-17T14:40:05.392+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/Expanding LLM capabilities and multimodal AI (transcript)" progress=77/87
+time=2026-04-17T14:40:05.405+01:00 level=INFO msg=Downloaded component=[Download] file="10. Ethical Considerations and Governance Frameworks/Designing responsible AI: Governance models and human-in-the-loop (HITL)" progress=78/87
+time=2026-04-17T14:40:05.405+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/Security for LLMs and proactive self-defense (transcript)" progress=79/87
+time=2026-04-17T14:40:06.020+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/Security for LLMs and proactive self-defense" progress=80/87
+time=2026-04-17T14:40:06.021+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/The roadmap for AI agents in cybersecurity: Opportunities and future research (transcript)" progress=81/87
+time=2026-04-17T14:40:06.023+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/The roadmap for AI agents in cybersecurity: Opportunities and future research" progress=82/87
+time=2026-04-17T14:40:06.023+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/Course wrap-up video (transcript)" progress=83/87
+time=2026-04-17T14:40:06.388+01:00 level=INFO msg=Downloaded component=[Download] file="Exercise File: Ex_Files_AI_Agents_Cybersecurity.zip" progress=84/87
+time=2026-04-17T14:40:06.407+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/Course wrap-up video" progress=85/87
+time=2026-04-17T14:40:06.757+01:00 level=INFO msg=Downloaded component=[Download] file="6. Advanced Analysis Capabilities/AI for System Log Analysis and Anomaly Detection" progress=86/87
+time=2026-04-17T14:40:12.348+01:00 level=INFO msg=Downloaded component=[Download] file="11. Future Directions and Advanced Concepts/Expanding LLM capabilities and multimodal AI" progress=87/87
+time=2026-04-17T16:14:38.058+01:00 level=INFO msg="authentication successful" component=[Auth][Authenticate] enterprise=true csrf_set=true
+time=2026-04-17T16:14:38.837+01:00 level=INFO msg="fetched course structure" component=[Course][Fetcher] slug=wordpress-ecommerce-2
+time=2026-04-17T16:14:38.839+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=build-an-ecommerce-store
+time=2026-04-17T16:14:39.527+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Build an ecommerce store" duration=33 transcriptLines=14
+time=2026-04-17T16:14:39.527+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=what-you-need-to-know
+time=2026-04-17T16:14:40.178+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="What you need to know" duration=31 transcriptLines=14
+time=2026-04-17T16:14:40.178+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=essential-ecommerce-features
+time=2026-04-17T16:14:40.936+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Essential ecommerce features" duration=260 transcriptLines=112
+time=2026-04-17T16:14:40.937+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=shipping-payment-and-taxes
+time=2026-04-17T16:14:41.648+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Shipping, payment, and taxes" duration=95 transcriptLines=39
+time=2026-04-17T16:14:41.648+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=overview-of-accepting-payment
+time=2026-04-17T16:14:42.363+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Overview of accepting payment" duration=189 transcriptLines=79
+time=2026-04-17T16:14:42.363+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=payment-gateways
+time=2026-04-17T16:14:43.027+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Payment gateways" duration=254 transcriptLines=112
+time=2026-04-17T16:14:43.028+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=paypal-apple-pay-and-amazon-pay
+time=2026-04-17T16:14:43.683+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="PayPal, Apple Pay, and Amazon Pay" duration=134 transcriptLines=55
+time=2026-04-17T16:14:43.684+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=pci-compliance
+time=2026-04-17T16:14:44.318+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="PCI compliance" duration=120 transcriptLines=52
+time=2026-04-17T16:14:44.319+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=select-a-shipping-method
+time=2026-04-17T16:14:44.992+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Select a shipping method" duration=171 transcriptLines=83
+time=2026-04-17T16:14:44.992+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=don-t-underestimate-free-shipping
+time=2026-04-17T16:14:45.645+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Don't underestimate free shipping" duration=88 transcriptLines=40
+time=2026-04-17T16:14:45.647+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=understanding-taxes
+time=2026-04-17T16:14:46.373+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Understanding taxes" duration=177 transcriptLines=73
+time=2026-04-17T16:14:46.375+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=collecting-eu-value-added-tax-vat
+time=2026-04-17T16:14:47.075+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Collecting EU value-added tax (VAT)" duration=131 transcriptLines=60
+time=2026-04-17T16:14:47.075+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=using-tax-services
+time=2026-04-17T16:14:47.719+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Using tax services" duration=74 transcriptLines=34
+time=2026-04-17T16:14:47.720+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=using-native-wordpress-platforms
+time=2026-04-17T16:14:48.350+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Using native WordPress platforms" duration=158 transcriptLines=74
+time=2026-04-17T16:14:48.350+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=using-third-party-platforms
+time=2026-04-17T16:14:49.029+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Using third-party platforms" duration=214 transcriptLines=94
+time=2026-04-17T16:14:49.031+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=choosing-a-business-model
+time=2026-04-17T16:14:49.771+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Choosing a business model" duration=200 transcriptLines=95
+time=2026-04-17T16:14:49.771+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=defining-your-audience
+time=2026-04-17T16:14:50.467+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Defining your audience" duration=241 transcriptLines=112
+time=2026-04-17T16:14:50.468+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=organizing-your-products
+time=2026-04-17T16:14:51.146+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Organizing your products" duration=241 transcriptLines=105
+time=2026-04-17T16:14:51.147+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=validate-your-product
+time=2026-04-17T16:14:51.845+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Validate your product" duration=200 transcriptLines=92
+time=2026-04-17T16:14:51.846+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=attract-traffic
+time=2026-04-17T16:14:52.542+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Attract traffic" duration=201 transcriptLines=91
+time=2026-04-17T16:14:52.543+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=increase-your-average-order-value
+time=2026-04-17T16:14:53.612+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Increase your average order value" duration=123 transcriptLines=53
+time=2026-04-17T16:14:53.613+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=understanding-customer-lifetime-value
+time=2026-04-17T16:14:54.305+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Understanding customer lifetime value" duration=141 transcriptLines=67
+time=2026-04-17T16:14:54.305+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=increasing-clv-with-repeat-customers
+time=2026-04-17T16:14:55.018+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Increasing CLV with repeat customers" duration=167 transcriptLines=76
+time=2026-04-17T16:14:55.019+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=testing-your-site
+time=2026-04-17T16:14:55.718+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Testing your site" duration=152 transcriptLines=74
+time=2026-04-17T16:14:55.719+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=optimizing-your-site
+time=2026-04-17T16:14:56.710+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Optimizing your site" duration=197 transcriptLines=90
+time=2026-04-17T16:14:56.711+01:00 level=INFO msg="resolving video" component=[Video][Resolve] course=wordpress-ecommerce-2 video=next-steps
+time=2026-04-17T16:14:57.387+01:00 level=INFO msg="video resolved" component=[Video][Resolve] title="Next steps" duration=71 transcriptLines=30
+time=2026-04-17T16:14:57.392+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/Build an ecommerce store (transcript)" progress=1/52
+time=2026-04-17T16:14:57.392+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/What you need to know (transcript)" progress=2/52
+time=2026-04-17T16:14:57.393+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Essential ecommerce features (transcript)" progress=3/52
+time=2026-04-17T16:14:57.615+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/What you need to know" progress=4/52
+time=2026-04-17T16:14:57.616+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Shipping, payment, and taxes (transcript)" progress=5/52
+time=2026-04-17T16:14:57.657+01:00 level=INFO msg=Downloaded component=[Download] file="Introduction/Build an ecommerce store" progress=6/52
+time=2026-04-17T16:14:57.665+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Overview of accepting payment (transcript)" progress=7/52
+time=2026-04-17T16:14:57.677+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Shipping, payment, and taxes" progress=8/52
+time=2026-04-17T16:14:57.678+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Payment gateways (transcript)" progress=9/52
+time=2026-04-17T16:14:57.792+01:00 level=INFO msg=Downloaded component=[Download] file="1. Ingredients for Ecommerce/Essential ecommerce features" progress=10/52
+time=2026-04-17T16:14:57.793+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PayPal, Apple Pay, and Amazon Pay (transcript)" progress=11/52
+time=2026-04-17T16:14:58.098+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PCI compliance" progress=12/52
+time=2026-04-17T16:14:58.099+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PCI compliance (transcript)" progress=13/52
+time=2026-04-17T16:14:58.111+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/PayPal, Apple Pay, and Amazon Pay" progress=14/52
+time=2026-04-17T16:14:58.112+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Select a shipping method (transcript)" progress=15/52
+time=2026-04-17T16:14:58.123+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Payment gateways" progress=16/52
+time=2026-04-17T16:14:58.123+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Don't underestimate free shipping (transcript)" progress=17/52
+time=2026-04-17T16:14:58.370+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Understanding taxes" progress=18/52
+time=2026-04-17T16:14:58.370+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Understanding taxes (transcript)" progress=19/52
+time=2026-04-17T16:14:58.372+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Select a shipping method" progress=20/52
+time=2026-04-17T16:14:58.373+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Collecting EU value-added tax (VAT) (transcript)" progress=21/52
+time=2026-04-17T16:14:58.625+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Using tax services" progress=22/52
+time=2026-04-17T16:14:58.626+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Using tax services (transcript)" progress=23/52
+time=2026-04-17T16:14:58.679+01:00 level=INFO msg=Downloaded component=[Download] file="3. Calculating Shipping/Don't underestimate free shipping" progress=24/52
+time=2026-04-17T16:14:58.680+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using native WordPress platforms (transcript)" progress=25/52
+time=2026-04-17T16:14:58.878+01:00 level=INFO msg=Downloaded component=[Download] file="2. Getting Paid/Overview of accepting payment" progress=26/52
+time=2026-04-17T16:14:58.878+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using third-party platforms (transcript)" progress=27/52
+time=2026-04-17T16:14:58.914+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using native WordPress platforms" progress=28/52
+time=2026-04-17T16:14:58.915+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Choosing a business model (transcript)" progress=29/52
+time=2026-04-17T16:14:59.071+01:00 level=INFO msg=Downloaded component=[Download] file="5. Using WordPress for Ecommerce/Using third-party platforms" progress=30/52
+time=2026-04-17T16:14:59.072+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Defining your audience (transcript)" progress=31/52
+time=2026-04-17T16:14:59.260+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Defining your audience" progress=32/52
+time=2026-04-17T16:14:59.260+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Organizing your products (transcript)" progress=33/52
+time=2026-04-17T16:14:59.611+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Validate your product" progress=34/52
+time=2026-04-17T16:14:59.612+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Validate your product (transcript)" progress=35/52
+time=2026-04-17T16:14:59.615+01:00 level=INFO msg=Downloaded component=[Download] file="4. Taxes/Collecting EU value-added tax (VAT)" progress=36/52
+time=2026-04-17T16:14:59.615+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Attract traffic (transcript)" progress=37/52
+time=2026-04-17T16:14:59.664+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Organizing your products" progress=38/52
+time=2026-04-17T16:14:59.664+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increase your average order value (transcript)" progress=39/52
+time=2026-04-17T16:14:59.743+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increase your average order value" progress=40/52
+time=2026-04-17T16:14:59.744+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Understanding customer lifetime value (transcript)" progress=41/52
+time=2026-04-17T16:14:59.804+01:00 level=INFO msg=Downloaded component=[Download] file="6. Understand Your Market/Choosing a business model" progress=42/52
+time=2026-04-17T16:14:59.809+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increasing CLV with repeat customers (transcript)" progress=43/52
+time=2026-04-17T16:14:59.902+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Understanding customer lifetime value" progress=44/52
+time=2026-04-17T16:14:59.905+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Testing your site (transcript)" progress=45/52
+time=2026-04-17T16:14:59.996+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Increasing CLV with repeat customers" progress=46/52
+time=2026-04-17T16:14:59.996+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Optimizing your site (transcript)" progress=47/52
+time=2026-04-17T16:15:00.284+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Optimizing your site" progress=48/52
+time=2026-04-17T16:15:00.284+01:00 level=INFO msg=Downloaded component=[Download] file="Conclusion/Next steps (transcript)" progress=49/52
+time=2026-04-17T16:15:00.621+01:00 level=INFO msg=Downloaded component=[Download] file="7. Marketing Your Site/Attract traffic" progress=50/52
+time=2026-04-17T16:15:01.320+01:00 level=INFO msg=Downloaded component=[Download] file="Conclusion/Next steps" progress=51/52
+time=2026-04-17T16:15:01.767+01:00 level=INFO msg=Downloaded component=[Download] file="8. Testing and Optimizing/Testing your site" progress=52/52

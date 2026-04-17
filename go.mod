@@ -1,4 +1,4 @@
-module github.com/abdeljalil/linkedin-learning-downloader
+module github.com/AbdeljalilB92/lldl
 
 go 1.22
 

@@ -15,23 +15,28 @@ func DefaultLevel() slog.Level {
 
 // Setup configures the global slog default logger with a multi-writer
 // that outputs to both stderr and a log file in logDir.
-// Returns an error if the log directory or file cannot be created.
-func Setup(level slog.Level, logDir string) error {
+// Returns a cleanup function to close the log file and an error if the
+// log directory or file cannot be created. Callers should defer the
+// cleanup function to ensure the log file is flushed on exit.
+func Setup(level slog.Level, logDir string) (func(), error) {
 	if err := os.MkdirAll(logDir, 0755); err != nil {
-		return fmt.Errorf("create log directory %s: %w", logDir, err)
+		return nil, fmt.Errorf("create log directory %s: %w", logDir, err)
 	}
 
 	logPath := filepath.Join(logDir, "log.txt")
 	logFile, err := os.OpenFile(logPath, os.O_CREATE|os.O_WRONLY|os.O_APPEND, 0644)
 	if err != nil {
-		return fmt.Errorf("open log file %s: %w", logPath, err)
+		return nil, fmt.Errorf("open log file %s: %w", logPath, err)
 	}
 
 	multiWriter := io.MultiWriter(os.Stderr, logFile)
 	handler := slog.NewTextHandler(multiWriter, &slog.HandlerOptions{Level: level})
 	slog.SetDefault(slog.New(handler))
 
-	return nil
+	cleanup := func() {
+		logFile.Close()
+	}
+	return cleanup, nil
 }
 
 // New creates a named logger scoped to a specific component.

@@ -106,8 +106,8 @@ func TestBuildDownloadJobs_TranscriptJob(t *testing.T) {
 	if !strings.HasSuffix(jobs[1].DestPath, ".srt") {
 		t.Errorf("transcript job dest should end with .srt, got %q", jobs[1].DestPath)
 	}
-	if jobs[1].Content != "1\n00:00:00,000 --> 00:00:01,000\nHello" {
-		t.Errorf("transcript content mismatch, got %q", jobs[1].Content)
+	if string(jobs[1].Content) != "1\n00:00:00,000 --> 00:00:01,000\nHello" {
+		t.Errorf("transcript content mismatch, got %q", string(jobs[1].Content))
 	}
 	if jobs[1].URL != "" {
 		t.Errorf("transcript job should have no URL, got %q", jobs[1].URL)
@@ -255,8 +255,8 @@ func assertURLJob(t *testing.T, job download.Job, wantCritical bool) {
 	if job.URL == "" {
 		t.Error("URL job should have non-empty URL")
 	}
-	if job.Content != "" {
-		t.Errorf("URL job should have empty Content, got %q", job.Content)
+	if len(job.Content) != 0 {
+		t.Errorf("URL job should have empty Content, got %q", string(job.Content))
 	}
 	if job.Critical != wantCritical {
 		t.Errorf("job Critical = %v, want %v", job.Critical, wantCritical)
@@ -265,7 +265,7 @@ func assertURLJob(t *testing.T, job download.Job, wantCritical bool) {
 
 func assertContentJob(t *testing.T, job download.Job, wantCritical bool) {
 	t.Helper()
-	if job.Content == "" {
+	if len(job.Content) == 0 {
 		t.Error("content job should have non-empty Content")
 	}
 	if job.URL != "" {

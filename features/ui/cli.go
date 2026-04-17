@@ -39,14 +39,14 @@ func (c *cliPresenter) ShowInfo(msg string) {
 	fmt.Printf("%s%s\n", promptGlyph, msg)
 }
 
-func (c *cliPresenter) PromptString(label string) string {
+func (c *cliPresenter) PromptString(label string) (string, error) {
 	fmt.Printf("%s%s\n", promptGlyph, label)
 	fmt.Print(promptGlyph)
 	line, err := c.reader.ReadString('\n')
 	if err != nil {
-		return ""
+		return "", err
 	}
-	return strings.TrimSpace(line)
+	return strings.TrimSpace(line), nil
 }
 
 func (c *cliPresenter) PromptPassword(label string) string {
@@ -106,14 +106,18 @@ func (c *cliPresenter) PromptYesNo(label string) bool {
 // PromptPath repeatedly prompts until the user provides a valid, non-empty path.
 // Directory creation is deferred to download time — this function only validates
 // that the path is usable (non-empty, no invalid characters).
-func (c *cliPresenter) PromptPath(label string) string {
+// Returns an error if stdin is closed (EOF) so callers can abort gracefully.
+func (c *cliPresenter) PromptPath(label string) (string, error) {
 	for {
-		path := c.PromptString(label)
+		path, err := c.PromptString(label)
+		if err != nil {
+			return "", err
+		}
 		if path == "" {
 			c.ShowError("Path cannot be empty")
 			continue
 		}
-		return path
+		return path, nil
 	}
 }
 

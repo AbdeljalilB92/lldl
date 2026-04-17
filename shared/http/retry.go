@@ -3,6 +3,7 @@ package http
 import (
 	"context"
 	"errors"
+	"fmt"
 	"io"
 	"net"
 	"net/http"
@@ -15,6 +16,10 @@ import (
 // DNS errors and HTTP 404 responses are not retried.
 // HTTP 429 (Too Many Requests) respects the Retry-After header when present.
 func DoWithRetry(ctx context.Context, client AuthenticatedClient, rawURL string, maxRetries int) ([]byte, error) {
+	if maxRetries < 1 {
+		return nil, &NetworkError{URL: rawURL, Cause: fmt.Errorf("maxRetries must be >= 1, got %d", maxRetries), Retryable: false}
+	}
+
 	var lastErr error
 
 	for attempt := 1; attempt <= maxRetries; attempt++ {
@@ -77,6 +82,11 @@ func waitBeforeRetry(ctx context.Context, attempt, maxRetries int, retryAfter ti
 	backoff := retryAfter
 	if backoff <= 0 {
 		backoff = time.Duration(1<<(attempt-1)) * time.Second
+		// Cap computed backoff at 30 seconds; honor server-provided Retry-After.
+		maxBackoff := 30 * time.Second
+		if backoff > maxBackoff {
+			backoff = maxBackoff
+		}
 	}
 	select {
 	case <-time.After(backoff):
@@ -141,7 +151,10 @@ type NetworkError struct {
 }
 
 func (e *NetworkError) Error() string {
-	return "network error: " + e.URL + ": " + e.Cause.Error()
+	if e.Cause != nil {
+		return "network error: " + e.URL + ": " + e.Cause.Error()
+	}
+	return "network error: " + e.URL
 }
 
 func (e *NetworkError) Unwrap() error {

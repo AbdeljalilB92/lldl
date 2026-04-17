@@ -72,9 +72,9 @@ func ParseExerciseFiles(el *courseElement) []shareddomain.ExerciseFile {
 }
 
 // jsonErr creates a sentinel error for parse failures with a descriptive message.
-// Avoids importing fmt in the hot path.
+// Returns a parseErr directly so callers can wrap it in a single ParseError layer.
 func jsonErr(msg string) error {
-	return &sharederr.ParseError{Source: "course API response", Cause: parseErr(msg)}
+	return parseErr(msg)
 }
 
 type parseErr string

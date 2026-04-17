@@ -113,7 +113,7 @@ func buildCoursePageURL(courseSlug, firstVideoSlug, enterpriseHash string) strin
 	u := &url.URL{
 		Scheme: "https",
 		Host:   "www.linkedin.com",
-		Path:   "/learning/" + courseSlug + "/" + firstVideoSlug,
+		Path:   "/learning/" + url.PathEscape(courseSlug) + "/" + url.PathEscape(firstVideoSlug),
 	}
 	if enterpriseHash != "" {
 		q := u.Query()

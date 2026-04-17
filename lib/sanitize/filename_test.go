@@ -59,14 +59,14 @@ func TestToSafeFileName(t *testing.T) {
 			expected: "React \U0001f60a Course",
 		},
 		{
-			name:     "empty string stays empty",
+			name:     "empty string returns unnamed",
 			input:    "",
-			expected: "",
+			expected: "unnamed",
 		},
 		{
-			name:     "all invalid characters returns empty",
+			name:     "all invalid characters returns unnamed",
 			input:    "<>:\"/\\|?*" + "\x00\x01",
-			expected: "",
+			expected: "unnamed",
 		},
 		{
 			name:     "control characters stripped",
@@ -82,6 +82,78 @@ func TestToSafeFileName(t *testing.T) {
 			name:     "newline stripped (control char)",
 			input:    "line1\nline2",
 			expected: "line1line2",
+		},
+		// Windows reserved name handling (#18)
+		{
+			name:     "Windows reserved name CON prefixed",
+			input:    "CON",
+			expected: "_CON",
+		},
+		{
+			name:     "Windows reserved name PRN prefixed",
+			input:    "PRN",
+			expected: "_PRN",
+		},
+		{
+			name:     "Windows reserved name AUX prefixed",
+			input:    "AUX",
+			expected: "_AUX",
+		},
+		{
+			name:     "Windows reserved name NUL prefixed",
+			input:    "NUL",
+			expected: "_NUL",
+		},
+		{
+			name:     "Windows reserved name COM1 prefixed",
+			input:    "COM1",
+			expected: "_COM1",
+		},
+		{
+			name:     "Windows reserved name LPT9 prefixed",
+			input:    "LPT9",
+			expected: "_LPT9",
+		},
+		{
+			name:     "Windows reserved name case-insensitive",
+			input:    "con",
+			expected: "_con",
+		},
+		{
+			name:     "non-reserved name unchanged",
+			input:    "Config",
+			expected: "Config",
+		},
+		// Trailing spaces and periods (#19)
+		{
+			name:     "trailing spaces stripped",
+			input:    "hello   ",
+			expected: "hello",
+		},
+		{
+			name:     "trailing periods stripped",
+			input:    "hello...",
+			expected: "hello",
+		},
+		{
+			name:     "trailing spaces and periods stripped",
+			input:    "hello .  ..",
+			expected: "hello",
+		},
+		{
+			name:     "only trailing stripped, internal preserved",
+			input:    "hello. world  ",
+			expected: "hello. world",
+		},
+		{
+			name:     "only spaces becomes unnamed",
+			input:    "   ",
+			expected: "unnamed",
+		},
+		{
+			name:     "only periods becomes unnamed",
+			input:    "...",
+			expected: "unnamed",
 		},
 	}
 

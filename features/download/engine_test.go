@@ -104,7 +104,7 @@ func TestDownloadAll_ContentWrite(t *testing.T) {
 		DestPath:    destPath,
 		Description: "subtitle",
 		Critical:    true,
-		Content:     "1\n00:00:00,000 --> 00:00:01,000\nHello",
+		Content:     []byte("1\n00:00:00,000 --> 00:00:01,000\nHello"),
 	}}
 
 	results := engine.DownloadAll(context.Background(), jobs)
@@ -117,7 +117,7 @@ func TestDownloadAll_ContentWrite(t *testing.T) {
 	if err != nil {
 		t.Fatalf("reading output file: %v", err)
 	}
-	if string(got) != jobs[0].Content {
+	if string(got) != string(jobs[0].Content) {
 		t.Fatalf("content mismatch")
 	}
 }

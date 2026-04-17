@@ -50,8 +50,12 @@ type TranscriptLine struct {
 }
 
 // FormatSRTTime converts milliseconds to SRT timestamp format: HH:MM:SS,mmm.
+// Negative values are clamped to 0 to avoid producing invalid timestamps.
 // Shared by course and video features to avoid duplicating SRT formatting logic.
 func FormatSRTTime(ms int64) string {
+	if ms < 0 {
+		ms = 0
+	}
 	h := ms / 3600000
 	ms %= 3600000
 	m := ms / 60000

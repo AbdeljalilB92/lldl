@@ -76,7 +76,7 @@ func (e *concurrentEngine) DownloadAll(ctx context.Context, jobs []Job) []Result
 				}
 
 				var err error
-				if job.Content != "" {
+				if len(job.Content) > 0 {
 					// Ensure parent directory exists for content (transcript) jobs.
 					if dir := parentDir(job.DestPath); dir != "" {
 						if mkdirErr := os.MkdirAll(dir, 0755); mkdirErr != nil {
@@ -84,7 +84,7 @@ func (e *concurrentEngine) DownloadAll(ctx context.Context, jobs []Job) []Result
 						}
 					}
 					if err == nil {
-						err = os.WriteFile(job.DestPath, []byte(job.Content), 0600)
+						err = os.WriteFile(job.DestPath, job.Content, 0600)
 					}
 				} else {
 					err = e.downloadWithRetry(ctx, job)

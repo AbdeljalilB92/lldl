@@ -41,8 +41,9 @@ type userAgentTransport struct {
 }
 
 func (t *userAgentTransport) RoundTrip(req *http.Request) (*http.Response, error) {
-	req.Header.Set("User-Agent", UserAgent)
-	return t.base.RoundTrip(req)
+	cloned := req.Clone(req.Context())
+	cloned.Header.Set("User-Agent", UserAgent)
+	return t.base.RoundTrip(cloned)
 }
 
 // csrfTransport wraps an http.RoundTripper to inject the csrf-token header
@@ -53,8 +54,9 @@ type csrfTransport struct {
 }
 
 func (t *csrfTransport) RoundTrip(req *http.Request) (*http.Response, error) {
-	req.Header.Set("csrf-token", t.csrfToken)
-	return t.base.RoundTrip(req)
+	cloned := req.Clone(req.Context())
+	cloned.Header.Set("csrf-token", t.csrfToken)
+	return t.base.RoundTrip(cloned)
 }
 
 // NewAuthenticatedClient creates an AuthenticatedClient pre-configured with the

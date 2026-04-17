@@ -3,19 +3,34 @@
 // or the original file remains intact.
 package atomic
 
-import "os"
+import (
+	"os"
+	"path/filepath"
+)
 
 // WriteFile writes data to path atomically by first writing to a temporary file
 // and then renaming it to the final destination. If the write or rename fails,
 // the temporary file is cleaned up.
 //
+// A unique temp file is created via os.CreateTemp to avoid collisions when
+// multiple processes write to the same path concurrently.
 // The rename provides atomicity on the same filesystem. Sync is called before
 // rename to ensure data is flushed to stable storage.
 func WriteFile(path string, data []byte, perm os.FileMode) error {
-	tmp := path + ".tmp"
+	dir := filepath.Dir(path)
 
-	f, err := os.OpenFile(tmp, os.O_WRONLY|os.O_CREATE|os.O_TRUNC, perm)
+	// CreateTemp generates a unique filename in the target directory,
+	// preventing concurrent writers from clobbering each other's temp files.
+	f, err := os.CreateTemp(dir, ".lldl-tmp-*")
 	if err != nil {
+		return err
+	}
+	tmp := f.Name()
+
+	// Set the requested permissions (CreateTemp uses 0600 by default).
+	if err := f.Chmod(perm); err != nil {
+		f.Close()
+		os.Remove(tmp)
 		return err
 	}
 

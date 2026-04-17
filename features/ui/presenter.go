@@ -13,10 +13,10 @@ type Presenter interface {
 	ShowError(msg string)
 	ShowSuccess(msg string)
 	ShowInfo(msg string)
-	PromptString(label string) string
+	PromptString(label string) (string, error)
 	PromptPassword(label string) string
 	PromptQuality() (shareddomain.Quality, error)
 	PromptYesNo(label string) bool
-	PromptPath(label string) string
+	PromptPath(label string) (string, error)
 	ShowCourseInfo(title string, chapters int, videos int)
 }

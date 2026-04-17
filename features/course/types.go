@@ -58,6 +58,11 @@ func (v *Video) FormTranscript() {
 			endsAtMS = v.TranscriptLines[i+1].StartsAt
 		} else {
 			endsAtMS = int64(v.Duration) * 1000
+			// When video duration is unknown (0) or too short to exceed the
+			// start time, add a 3-second buffer so the last cue is readable.
+			if endsAtMS <= line.StartsAt {
+				endsAtMS = line.StartsAt + 3000
+			}
 		}
 		endsAt := shareddomain.FormatSRTTime(endsAtMS)
 

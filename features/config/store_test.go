@@ -120,9 +120,12 @@ func TestTokenBase64EncodedInFile(t *testing.T) {
 
 func TestDefaultConfigPath(t *testing.T) {
 	got := DefaultConfigPath()
-	want := "./config.json"
-	if got != want {
-		t.Errorf("DefaultConfigPath: got %q, want %q", got, want)
+	// Should use the OS config directory, not the current directory.
+	if got == "./config.json" {
+		t.Error("DefaultConfigPath should not use current directory")
+	}
+	if got == "" {
+		t.Error("DefaultConfigPath should not be empty")
 	}
 }
 

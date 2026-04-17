@@ -31,8 +31,11 @@ func main() {
 }
 
 func run() error {
-	if err := logging.Setup(logging.DefaultLevel(), "./logs"); err != nil {
+	cleanup, err := logging.Setup(logging.DefaultLevel(), "./logs")
+	if err != nil {
 		slog.Warn("logging setup failed, continuing with default logger", "error", err)
+	} else {
+		defer cleanup()
 	}
 
 	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)

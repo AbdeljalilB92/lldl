@@ -115,7 +115,10 @@ func (a *App) Run(ctx context.Context) error {
 			return fmt.Errorf("quality prompt failed: %w", err)
 		}
 		quality = q
-		outputDir = a.presenter.PromptPath("Enter download directory path:")
+		outputDir, err = a.presenter.PromptPath("Enter download directory path:")
+		if err != nil {
+			return fmt.Errorf("path prompt failed: %w", err)
+		}
 
 		savedCfg = &config.Config{
 			AuthToken:       token,
@@ -125,7 +128,10 @@ func (a *App) Run(ctx context.Context) error {
 	}
 
 	// Step 2: Prompt for course URL and extract slug.
-	courseURL := a.presenter.PromptString("Enter the LinkedIn Learning course URL:")
+	courseURL, err := a.presenter.PromptString("Enter the LinkedIn Learning course URL:")
+	if err != nil {
+		return fmt.Errorf("course URL prompt failed: %w", err)
+	}
 	courseSlug, err := validation.ValidateCourseURL(courseURL)
 	if err != nil {
 		return fmt.Errorf("invalid course URL: %w", err)
@@ -163,11 +169,13 @@ func (a *App) Run(ctx context.Context) error {
 	// and only abort if all videos fail.
 	logger := logging.New("[App][ResolveVideos]")
 	totalVideos := 0
+	for ci := range crs.Chapters {
+		totalVideos += len(crs.Chapters[ci].Videos)
+	}
 	resolveCount := 0
 	resolveFailures := 0
 
 	for ci := range crs.Chapters {
-		totalVideos += len(crs.Chapters[ci].Videos)
 		for vi := range crs.Chapters[ci].Videos {
 			vid := &crs.Chapters[ci].Videos[vi]
 			resolveCount++
@@ -270,6 +278,12 @@ func buildDownloadJobs(crs *course.Course, outputDir string) []download.Job {
 		chDir := filepath.Join(courseDir, download.FormatChapterDir(ch.Title, ch.IndexInCourse))
 
 		for vi, vid := range ch.Videos {
+			// Skip videos whose URL could not be resolved — attempting to
+			// download with an empty URL would fail at the HTTP layer anyway.
+			if vid.DownloadURL == "" {
+				continue
+			}
+
 			videoFile := filepath.Join(chDir, download.FormatVideoFileWithIndex(vid.Title, vi, "mp4"))
 			jobs = append(jobs, download.Job{
 				URL:         vid.DownloadURL,
@@ -285,7 +299,7 @@ func buildDownloadJobs(crs *course.Course, outputDir string) []download.Job {
 					DestPath:    srtFile,
 					Description: fmt.Sprintf("%s/%s (transcript)", ch.Title, vid.Title),
 					Critical:    false,
-					Content:     vid.Transcript,
+					Content:     []byte(vid.Transcript),
 				})
 			}
 		}

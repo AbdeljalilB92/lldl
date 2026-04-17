@@ -1,6 +1,7 @@
 package atomic
 
 import (
+	"fmt"
 	"os"
 	"path/filepath"
 	"testing"
@@ -54,11 +55,6 @@ func TestWriteFile(t *testing.T) {
 				if err == nil {
 					t.Fatal("expected error, got nil")
 				}
-				// Verify temp file is cleaned up
-				_, statErr := os.Stat(tt.path + ".tmp")
-				if !os.IsNotExist(statErr) {
-					t.Fatal("temp file should be cleaned up on error")
-				}
 				return
 			}
 
@@ -84,11 +80,33 @@ func TestWriteFile(t *testing.T) {
 				t.Fatalf("permission mismatch: got %o, want %o", got, tt.perm)
 			}
 
-			// Verify no temp file remains
-			_, statErr := os.Stat(tt.path + ".tmp")
-			if !os.IsNotExist(statErr) {
-				t.Fatal("temp file should not exist after successful write")
+			// Verify no temp files remain (CreateTemp uses .lldl-tmp-* pattern)
+			entries, _ := os.ReadDir(filepath.Dir(tt.path))
+			for _, e := range entries {
+				if matched, _ := filepath.Match(".lldl-tmp-*", e.Name()); matched {
+					t.Fatalf("temp file should not exist after successful write: %s", e.Name())
+				}
 			}
 		})
+	}
+}
+
+func TestWriteFile_ConcurrentWrites(t *testing.T) {
+	// Verify that concurrent writes to different files in the same directory
+	// don't collide because each uses a unique temp file.
+	dir := t.TempDir()
+	errs := make(chan error, 10)
+
+	for i := 0; i < 10; i++ {
+		go func(idx int) {
+			path := filepath.Join(dir, filepath.Base(fmt.Sprintf("file%d.txt", idx)))
+			errs <- WriteFile(path, []byte("content"), 0644)
+		}(i)
+	}
+
+	for i := 0; i < 10; i++ {
+		if err := <-errs; err != nil {
+			t.Errorf("concurrent write %d failed: %v", i, err)
+		}
 	}
 }

@@ -33,10 +33,11 @@ func TestNew_ComponentAttribute(t *testing.T) {
 
 func TestSetup_CreatesLogFile(t *testing.T) {
 	dir := t.TempDir()
-	err := Setup(slog.LevelDebug, dir)
+	cleanup, err := Setup(slog.LevelDebug, dir)
 	if err != nil {
 		t.Fatalf("Setup() returned error: %v", err)
 	}
+	defer cleanup()
 
 	logPath := filepath.Join(dir, "log.txt")
 	_, err = os.Stat(logPath)
@@ -47,7 +48,7 @@ func TestSetup_CreatesLogFile(t *testing.T) {
 
 func TestSetup_InvalidDirectory(t *testing.T) {
 	// A path that cannot be created as a directory.
-	err := Setup(slog.LevelInfo, "/dev/null/impossible")
+	_, err := Setup(slog.LevelInfo, "/dev/null/impossible")
 	if err == nil {
 		t.Fatal("expected error for invalid directory, got nil")
 	}

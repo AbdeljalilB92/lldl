@@ -10,9 +10,6 @@ import (
 // feature implementations. The Wire function uses these to build the full
 // dependency graph.
 type WireConfig struct {
-	Token       string
-	Quality     string
-	OutputDir   string
 	Concurrency int
 	Delay       int
 	ConfigPath  string

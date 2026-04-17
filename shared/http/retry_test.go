@@ -201,6 +201,35 @@ func TestDoWithRetry_RateLimit429(t *testing.T) {
 	}
 }
 
+func TestDoWithRetry_InvalidMaxRetries(t *testing.T) {
+	tc := &testClient{handler: http.HandlerFunc(func(w http.ResponseWriter, _ *http.Request) {
+		w.WriteHeader(http.StatusOK)
+	})}
+
+	_, err := DoWithRetry(context.Background(), tc, "http://example.com/test", 0)
+	if err == nil {
+		t.Fatal("expected error for maxRetries=0, got nil")
+	}
+	var netErr *NetworkError
+	if !errors.As(err, &netErr) {
+		t.Fatalf("expected NetworkError, got %T: %v", err, err)
+	}
+	if netErr.Retryable {
+		t.Fatal("invalid maxRetries should not be retryable")
+	}
+
+	_, err = DoWithRetry(context.Background(), tc, "http://example.com/test", -1)
+	if err == nil {
+		t.Fatal("expected error for maxRetries=-1, got nil")
+	}
+	if !errors.As(err, &netErr) {
+		t.Fatalf("expected NetworkError for maxRetries=-1, got %T: %v", err, err)
+	}
+	if netErr.Retryable {
+		t.Fatal("invalid maxRetries=-1 should not be retryable")
+	}
+}
+
 func TestParseRetryAfter(t *testing.T) {
 	tests := []struct {
 		name  string

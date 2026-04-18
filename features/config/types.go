@@ -17,6 +17,7 @@ type Config struct {
 	AuthToken       string
 	CourseDirectory string
 	Quality         string
+	CourseURL       string
 }
 
 // DefaultConfigPath returns the default config file path using the OS-specific

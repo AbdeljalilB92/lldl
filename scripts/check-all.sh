@@ -55,11 +55,14 @@ run_check       "go vet"       go vet ./...
 # 3. Linter
 run_check       "golangci-lint" ~/go/bin/golangci-lint run ./...
 
-# 4. Build
-run_check_silent "go build"    go build -o llcd .
+# 4. Build CLI (from cmd/lldl)
+run_check_silent "go build (cli)"  go build -o llcd ./cmd/lldl/
 
 # 5. Tests
-run_check       "go test"      go test ./...
+run_check       "go test"          go test ./...
+
+# 6. Build GUI (root main.go with Wails)
+run_check_silent "go build (gui)"  go build -o /dev/null .
 
 echo ""
 echo "=============================="

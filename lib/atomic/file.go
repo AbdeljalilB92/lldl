@@ -19,6 +19,11 @@ import (
 func WriteFile(path string, data []byte, perm os.FileMode) error {
 	dir := filepath.Dir(path)
 
+	// Ensure the parent directory exists before creating a temp file inside it.
+	if err := os.MkdirAll(dir, 0755); err != nil {
+		return err
+	}
+
 	// CreateTemp generates a unique filename in the target directory,
 	// preventing concurrent writers from clobbering each other's temp files.
 	f, err := os.CreateTemp(dir, ".lldl-tmp-*")

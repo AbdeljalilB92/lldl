@@ -28,18 +28,33 @@ const defaultMaxRetries = 5
 type concurrentEngine struct {
 	concurrency int
 	client      sharedhttp.AuthenticatedClient
+	progressFn  ProgressFunc
+}
+
+// EngineOption applies a configuration tweak to concurrentEngine during construction.
+type EngineOption func(*concurrentEngine)
+
+// WithProgress sets a callback invoked after each job completes.
+// When set, the downloadFile method skips progressbar rendering to stderr —
+// the callback is the sole progress mechanism (used by GUI).
+func WithProgress(fn ProgressFunc) EngineOption {
+	return func(e *concurrentEngine) { e.progressFn = fn }
 }
 
 // NewConcurrentEngine creates an Engine that downloads files concurrently
 // using a worker pool of the given size. The client handles authentication.
-func NewConcurrentEngine(concurrency int, client sharedhttp.AuthenticatedClient) Engine {
+func NewConcurrentEngine(concurrency int, client sharedhttp.AuthenticatedClient, opts ...EngineOption) Engine {
 	if concurrency <= 0 {
 		concurrency = 4
 	}
-	return &concurrentEngine{
+	e := &concurrentEngine{
 		concurrency: concurrency,
 		client:      client,
 	}
+	for _, opt := range opts {
+		opt(e)
+	}
+	return e
 }
 
 // DownloadAll executes all jobs using a worker pool and returns results
@@ -91,9 +106,6 @@ func (e *concurrentEngine) DownloadAll(ctx context.Context, jobs []Job) []Result
 				}
 
 				done := completed.Add(1)
-				if err == nil {
-					logger.Info("Downloaded", "file", job.Description, "progress", fmt.Sprintf("%d/%d", done, total))
-				}
 
 				skipped := false
 				if err != nil && !job.Critical {
@@ -105,6 +117,15 @@ func (e *concurrentEngine) DownloadAll(ctx context.Context, jobs []Job) []Result
 					}
 					// Non-critical failures don't propagate as errors.
 					err = nil
+				}
+
+				if err == nil && !skipped {
+					logger.Info("Downloaded", "file", job.Description, "progress", fmt.Sprintf("%d/%d", done, total))
+				}
+
+				// Notify progress callback when set (GUI path).
+				if e.progressFn != nil {
+					e.progressFn(int(done), int(total), job.Description, err, skipped)
 				}
 
 				results[idx] = Result{
@@ -197,16 +218,22 @@ func (e *concurrentEngine) downloadFile(ctx context.Context, fileURL, destPath, 
 		return fmt.Errorf("creating temp file: %w", err)
 	}
 
-	bar := progressbar.NewOptions64(
-		resp.ContentLength,
-		progressbar.OptionSetDescription(fmt.Sprintf("  %s", description)),
-		progressbar.OptionSetWriter(os.Stderr),
-		progressbar.OptionShowBytes(true),
-		progressbar.OptionSetWidth(40),
-		progressbar.OptionThrottle(100*time.Millisecond),
-	)
+	// When a progress callback is set (GUI path), skip the stderr progressbar
+	// to avoid mixing TUI output with the GUI. The CLI path retains progressbar.
+	var writer io.Writer = f
+	if e.progressFn == nil {
+		bar := progressbar.NewOptions64(
+			resp.ContentLength,
+			progressbar.OptionSetDescription(fmt.Sprintf("  %s", description)),
+			progressbar.OptionSetWriter(os.Stderr),
+			progressbar.OptionShowBytes(true),
+			progressbar.OptionSetWidth(40),
+			progressbar.OptionThrottle(100*time.Millisecond),
+		)
+		writer = io.MultiWriter(f, bar)
+	}
 
-	_, copyErr := io.Copy(io.MultiWriter(f, bar), resp.Body)
+	_, copyErr := io.Copy(writer, resp.Body)
 	if copyErr != nil {
 		f.Close()
 		os.Remove(tmpPath)

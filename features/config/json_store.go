@@ -23,6 +23,7 @@ type jsonConfig struct {
 	AuthToken       string `json:"authToken"`
 	CourseDirectory string `json:"courseDirectory"`
 	Quality         string `json:"quality"`
+	CourseURL       string `json:"courseUrl,omitempty"`
 }
 
 // NewJSONStore creates a Store backed by a JSON file at the given path.
@@ -46,6 +47,7 @@ func (s *jsonConfigStore) Load() (*Config, error) {
 	cfg := &Config{
 		CourseDirectory: raw.CourseDirectory,
 		Quality:         raw.Quality,
+		CourseURL:       raw.CourseURL,
 	}
 
 	if raw.AuthToken != "" {
@@ -65,6 +67,7 @@ func (s *jsonConfigStore) Save(cfg *Config) error {
 	raw := jsonConfig{
 		CourseDirectory: cfg.CourseDirectory,
 		Quality:         cfg.Quality,
+		CourseURL:       cfg.CourseURL,
 	}
 	if cfg.AuthToken != "" {
 		raw.AuthToken = base64.StdEncoding.EncodeToString([]byte(cfg.AuthToken))

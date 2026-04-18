@@ -21,6 +21,7 @@ func TestRoundTrip(t *testing.T) {
 		AuthToken:       "li_at_secret_value",
 		CourseDirectory: "/courses",
 		Quality:         "720",
+		CourseURL:       "https://www.linkedin.com/learning/go-essentials",
 	}
 
 	if err := store.Save(original); err != nil {
@@ -40,6 +41,9 @@ func TestRoundTrip(t *testing.T) {
 	}
 	if loaded.Quality != original.Quality {
 		t.Errorf("Quality: got %q, want %q", loaded.Quality, original.Quality)
+	}
+	if loaded.CourseURL != original.CourseURL {
+		t.Errorf("CourseURL: got %q, want %q", loaded.CourseURL, original.CourseURL)
 	}
 }
 

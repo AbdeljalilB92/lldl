@@ -1,52 +1,35 @@
 package main
 
 import (
-	"context"
-	"fmt"
-	"log/slog"
-	"os"
-	"os/signal"
-	"syscall"
+	"embed"
+	"log"
 
 	"github.com/AbdeljalilB92/lldl/app"
-	"github.com/AbdeljalilB92/lldl/shared/logging"
+	"github.com/wailsapp/wails/v2"
+	"github.com/wailsapp/wails/v2/pkg/options"
+	"github.com/wailsapp/wails/v2/pkg/options/assetserver"
 )
 
-const banner = `
-╔═╗╔═╗────╔╗───╔╗──────────╔╗─────────╔╗──────────────╔╗─╔╗
-║║╚╝║║────║║───║║──────────║║─────────║║──────────────║║─║║
-║╔╗╔╗╠══╦═╝╠══╗║╚═╦╗─╔╦╗╔══╣╚═╦╗╔╦══╦═╣╚═╗╔╗─╔╗╔╦══╦═╬╬═╝╠══╗
-║║║║║║╔╗║╔╗║║═╣║╔╗║║─║╠╝║╔╗║╔╗║╚╝║║═╣╔╗║╔╗║║─║║╚╝║╔╗║╔╬╦═╗║╔╗║
-║║║║║║╔╗║╚╝║║═╣║╚╝║╚═╝╠╗║╔╗║║║║║║║║═╣╚╝║╔╗║╚═╝║║║║╔╗║║║║─║║╔╗║
-╚╝╚╝╚╩╝╚╩══╩══╝╚══╩═╗╔╩╝╚╝╚╩╝╚╩╩╩╩══╩══╩╝╚╩═╗╔╩╩╩╩╝╚╩╝╚╝─╚╩╝╚╝
-──────────────────╔═╝║────────────────────╔═╝║
-──────────────────╚══╝────────────────────╚══╝
-`
+//go:embed all:frontend/dist
+var assets embed.FS
 
 func main() {
-	if err := run(); err != nil {
-		fmt.Fprintf(os.Stderr, "Error: %v\n", err)
-		os.Exit(1)
-	}
-}
+	service := app.WireForGUI(app.WireGUIConfig{})
 
-func run() error {
-	cleanup, err := logging.Setup(logging.DefaultLevel(), "./logs")
+	err := wails.Run(&options.App{
+		Title:  "lldl - LinkedIn Learning Downloader",
+		Width:  900,
+		Height: 700,
+		AssetServer: &assetserver.Options{
+			Assets: assets,
+		},
+		OnStartup:  service.OnStartup,
+		OnShutdown: service.OnShutdown,
+		Bind: []interface{}{
+			service,
+		},
+	})
 	if err != nil {
-		slog.Warn("logging setup failed, continuing with default logger", "error", err)
-	} else {
-		defer cleanup()
+		log.Fatalf("failed to start GUI: %v", err)
 	}
-
-	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)
-	defer stop()
-
-	fmt.Print(banner)
-
-	application, err := app.Wire(app.WireConfig{})
-	if err != nil {
-		return fmt.Errorf("application wiring failed: %w", err)
-	}
-
-	return application.Run(ctx)
 }

@@ -9,6 +9,12 @@ import (
 	"github.com/AbdeljalilB92/lldl/shared/errors"
 )
 
+// ProgressFunc is called after each job completes with the cumulative count of
+// finished jobs. The GUI uses this to emit Wails events; the CLI ignores it.
+// When skipped is true, the job was a non-critical file that failed due to a dead
+// CDN — the download was intentionally skipped rather than propagated as an error.
+type ProgressFunc func(done int, total int, description string, err error, skipped bool)
+
 // Job represents a single file download task.
 // The app layer translates domain objects (Course, Video) into Jobs
 // so this feature stays decoupled from other feature modules.

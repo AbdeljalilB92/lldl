@@ -4,20 +4,36 @@ This file provides guidance to Claude Code when working with the llcd (LinkedIn 
 
 ## Project Overview
 
-LinkedIn Learning course downloader. Go backend + Wails GUI (coming). Downloads videos, subtitles, and exercise files from LinkedIn Learning using authenticated API access and HTML scraping for exercise file URL resolution.
+LinkedIn Learning course downloader. Go backend + Wails v2 GUI. Downloads videos, subtitles, and exercise files from LinkedIn Learning using authenticated API access and HTML scraping for exercise file URL resolution.
+
+Supports two entry points via Go build tags:
+- **CLI** (default): `go build -o llcd .` — terminal-based wizard
+- **GUI**: `go build -tags gui -o lldl-gui .` — Wails desktop application
 
 ## Build & Development Commands
 
 ```bash
-go build -o llcd .                       # Build binary
-go run .                                 # Run directly
+# CLI
+go build -o llcd .                       # Build CLI binary
+go run .                                 # Run CLI directly
+
+# GUI
+go build -tags gui -o lldl-gui .         # Build GUI binary (needs frontend/dist)
+wails dev                                # GUI dev mode with hot reload
+wails build                              # Production GUI build
+
+# Quality
 go test ./...                            # Run all tests
 go test ./features/auth/...              # Run tests for specific package
 go vet ./...                             # Static analysis
 ~/go/bin/golangci-lint run ./...         # Linter
 gofmt -l .                               # Check formatting (list unformatted)
 gofmt -w .                               # Format all files in-place
-./scripts/check-all.sh                   # Run ALL quality gates (format + vet + lint + build + test)
+./scripts/check-all.sh                   # Run ALL quality gates (6 checks)
+
+# Frontend
+cd frontend && npm install               # Install frontend deps
+cd frontend && npx tsc --noEmit          # Type-check frontend
 ```
 
 ## Validation Gate (must pass before declaring done)
@@ -26,12 +42,13 @@ gofmt -w .                               # Format all files in-place
 ./scripts/check-all.sh
 ```
 
-This runs 5 checks in order:
+This runs 6 checks in order:
 1. **gofmt** — no unformatted files
 2. **go vet** — static analysis, zero warnings
 3. **golangci-lint** — 17 linters (see `.golangci.yml`), zero issues
-4. **go build** — compilation succeeds
+4. **go build** — CLI compilation succeeds
 5. **go test** — all tests pass
+6. **go build (gui)** — GUI build with `gui` tag compiles
 
 Zero warnings. Zero failures. No exceptions.
 
@@ -48,10 +65,14 @@ Delivering code that hasn't passed all gates is not acceptable.
 
 ```
 llcd/
-├── main.go                          # Entrypoint — calls app.Run()
+├── main.go                          # CLI entrypoint (build tag: !gui)
+├── main_gui.go                      # GUI entrypoint (build tag: gui)
 ├── app/
 │   ├── app.go                       # Application orchestrator — wires all dependencies
-│   └── wire.go                      # Dependency injection wiring (constructor-based)
+│   ├── wire.go                      # CLI dependency injection wiring
+│   ├── wire_gui.go                  # GUI dependency injection wiring
+│   ├── wails_service.go             # WailsService — step methods for GUI binding
+│   └── wails_types.go               # Response types for Wails binding methods
 │
 ├── features/                        # Feature modules — NO cross-feature imports
 │   ├── auth/
@@ -400,16 +421,73 @@ app/  →  features/*  →  shared/  →  lib/
 - **Autonomous bug fixing.** When given a bug: just fix it. Zero hand-holding required.
 - **Treat all generated code as untrusted** — review for security at boundaries.
 
-## Wails GUI Integration (Post-Refactor)
+## Wails GUI Integration
 
-After the refactoring is complete and all tests pass, a Wails GUI will be added:
-- `frontend/` — React/Svelte/TypeScript frontend (Wails standard layout)
-- `features/ui/wails.go` — Wails presenter implementation
-- `app/wails_app.go` — Wails application wrapper
-- Features remain identical — only the `Presenter` implementation changes
-- All business logic stays in Go. Frontend is pure presentation.
+The GUI is integrated alongside the CLI via Go build tags. No feature code is duplicated — both entry points share the same business logic through dependency injection.
 
-The refactoring MUST produce a clean interface boundary so the GUI swaps in without touching any feature code.
+### Dual Entry Points
+
+- `main.go` (`//go:build !gui`) — CLI entry. Calls `app.Wire()` then `app.Run()`.
+- `main_gui.go` (`//go:build gui`) — GUI entry. Calls `app.WireForGUI()` then `wails.Run()`.
+
+Only one is compiled at a time. `go build` gets CLI; `go build -tags gui` gets GUI.
+
+### WailsService Step Methods (`app/wails_service.go`)
+
+The GUI exposes individual pipeline steps as Wails binding methods. The frontend calls them in sequence:
+
+1. `LoadConfig()` — read saved config to pre-fill form
+2. `SaveConfig(req)` — persist user settings
+3. `Authenticate(token)` — validate token, build authenticated resolvers
+4. `FetchCourse(courseURL)` — fetch and store course structure
+5. `ResolveVideos()` — resolve download URLs, emit `resolve:progress` events
+6. `ResolveExercises()` — resolve exercise file URLs
+7. `StartDownload()` — download all files, emit `download:progress` / `download:complete` events
+8. `Cancel()` — abort in-progress resolve/download
+9. `SetQuality(q)` / `SetOutputDir(dir)` — set parameters before auth
+
+Progress is communicated via Wails events (`runtime.EventsEmit`), not return values.
+
+### Frontend Architecture
+
+```
+frontend/
+├── src/
+│   ├── App.tsx                    # Root component — step wizard + ErrorBoundary + SettingsPanel
+│   ├── App.css                    # All component styles (dark theme via CSS variables)
+│   ├── main.tsx                   # React entry point (Wails bootstraps this)
+│   ├── styles/
+│   │   ├── variables.css          # Design tokens (colors, spacing, radii)
+│   │   └── global.css             # Reset and base styles
+│   ├── hooks/
+│   │   ├── useWailsBinding.ts     # Typed wrappers around auto-generated Wails JS bindings
+│   │   └── useWailsEvents.ts      # Hooks for listening to Wails events
+│   └── components/
+│       ├── StepIndicator.tsx      # Progress dots in header
+│       ├── ConfigForm.tsx         # Token, quality, output dir, course URL form
+│       ├── AuthStatus.tsx         # Auth loading/success/error display
+│       ├── CourseSummary.tsx      # Course tree with chapters and videos
+│       ├── ResolveProgress.tsx    # URL resolution progress bar
+│       ├── DownloadProgress.tsx   # File download progress with per-file status
+│       ├── CompletionSummary.tsx  # Final stats (succeeded/failed/skipped)
+│       ├── ErrorBoundary.tsx      # Catches render errors, shows retry UI
+│       └── SettingsPanel.tsx      # Reset config, toggled via gear icon
+├── wailsjs/                       # Auto-generated by Wails (do not edit)
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
+```
+
+React + TypeScript + Vite. All styling via CSS variables defined in `variables.css`. No CSS framework.
+
+### GUI Development Workflow
+
+```bash
+wails dev            # Starts dev server with hot reload for both Go and frontend
+wails build          # Production build (outputs to build/bin/)
+```
+
+The `wails dev` command rebuilds the Go backend on change and proxies the Vite dev server.
 
 ## Git Workflow
 

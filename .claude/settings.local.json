@@ -29,7 +29,29 @@
       "Bash(go clean *)",
       "Bash(python3 *)",
       "Bash(xxd /home/abdeljalil/Documents/Personal/Linkedin-L-Downloader/features/video/resolver_test.go)",
-      "Bash(find . *)"
+      "Bash(find . *)",
+      "Bash(go get *)",
+      "Bash(go mod *)",
+      "Bash(npm install *)",
+      "Bash(npx tsc *)",
+      "Bash(wails dev *)",
+      "Bash(~/go/bin/wails dev *)",
+      "Bash(ln -s ../wails.json /home/abdeljalil/Documents/Personal/lldl/frontend/wails.json)",
+      "Read(/tmp/**)",
+      "Bash(~/go/bin/wails init *)",
+      "Bash(apt-cache search *)",
+      "Read(/home/abdeljalil/go/bin/**)",
+      "Bash(~/go/bin/wails doctor *)",
+      "Bash(~/go/bin/wails version *)",
+      "Bash(./lldl-gui)",
+      "Bash(echo \"exit code: $?\")",
+      "Bash(xxd)",
+      "Bash(npx vitest *)",
+      "Bash(go version *)",
+      "Bash(~/go/bin/golangci-lint version *)",
+      "Bash(git show *)",
+      "Read(//tmp/**)",
+      "Bash(~/go/bin/golangci-lint migrate *)"
     ]
   }
 }

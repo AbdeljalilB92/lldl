@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import { wailsBinding, type ConfigResponse } from "../hooks/useWailsBinding";
+import { EventsOn, EventsOff } from "../../wailsjs/runtime/runtime";
 
 const QUALITY_OPTIONS = [
   { value: "720p", label: "720p High" },
@@ -23,6 +24,20 @@ export default function ConfigForm({ onStart }: Props): JSX.Element {
   const [courseURL, setCourseURL] = useState("");
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [tokenReceived, setTokenReceived] = useState(false);
+  const tokenReceivedTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const handleTokenReceived = useCallback((receivedToken: string) => {
+    setToken(receivedToken);
+    setTokenReceived(true);
+
+    if (tokenReceivedTimerRef.current !== null) {
+      clearTimeout(tokenReceivedTimerRef.current);
+    }
+    tokenReceivedTimerRef.current = setTimeout(() => {
+      setTokenReceived(false);
+    }, 3000);
+  }, []);
 
   useEffect(() => {
     wailsBinding
@@ -40,6 +55,24 @@ export default function ConfigForm({ onStart }: Props): JSX.Element {
       })
       .finally(() => setLoading(false));
   }, []);
+
+  useEffect(() => {
+    const eventName = "token:received";
+    EventsOn(eventName, (data: unknown) => {
+      // Wails may pass the payload as variadic args; the first arg is the token string.
+      const tokenStr = typeof data === "string" ? data : Array.isArray(data) && typeof data[0] === "string" ? data[0] : "";
+      if (tokenStr) {
+        handleTokenReceived(tokenStr);
+      }
+    });
+
+    return () => {
+      EventsOff(eventName);
+      if (tokenReceivedTimerRef.current !== null) {
+        clearTimeout(tokenReceivedTimerRef.current);
+      }
+    };
+  }, [handleTokenReceived]);
 
   function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
@@ -79,6 +112,11 @@ export default function ConfigForm({ onStart }: Props): JSX.Element {
           placeholder="Paste your li_at cookie value"
           autoComplete="off"
         />
+        {tokenReceived && (
+          <span className="config-form__token-hint">
+            Token received from extension
+          </span>
+        )}
       </label>
 
       <label className="config-form__field">

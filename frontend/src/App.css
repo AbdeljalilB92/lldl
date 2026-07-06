@@ -204,6 +204,29 @@
   color: var(--color-text-muted);
 }
 
+.config-form__token-hint {
+  display: inline-block;
+  font-size: var(--font-sm);
+  color: var(--color-success);
+  background-color: var(--color-success-bg);
+  padding: var(--space-xs) var(--space-sm);
+  border-radius: var(--radius-sm);
+  margin-top: var(--space-xs);
+  animation: config-form__token-hint-fade 3s ease forwards;
+}
+
+@keyframes config-form__token-hint-fade {
+  0% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .config-form__dir-row {
   display: flex;
   gap: var(--space-sm);

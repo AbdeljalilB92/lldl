@@ -51,7 +51,8 @@
       "Bash(~/go/bin/golangci-lint version *)",
       "Bash(git show *)",
       "Read(//tmp/**)",
-      "Bash(~/go/bin/golangci-lint migrate *)"
+      "Bash(~/go/bin/golangci-lint migrate *)",
+      "Bash(node --check /home/abdeljalil/Documents/Personal/lldl/extension/background.js)"
     ]
   }
 }

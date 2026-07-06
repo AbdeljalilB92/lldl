@@ -51,6 +51,9 @@ type WailsService struct {
 	// Allows Cancel() to abort in-progress resolve/download.
 	cancelFunc context.CancelFunc
 
+	// Local HTTP server that receives auth tokens from browser extensions.
+	tokenServer *TokenServer
+
 	// Protects shared mutable state (quality, outputDir, cancelFunc, token, course).
 	mu sync.Mutex
 
@@ -87,13 +90,25 @@ func NewWailsService(authProvider auth.Provider, configStore config.Store) *Wail
 	}
 }
 
-// OnStartup stores the Wails context. Called automatically by the Wails runtime.
+// OnStartup stores the Wails context and starts the token HTTP server.
+// Called automatically by the Wails runtime.
 func (s *WailsService) OnStartup(ctx context.Context) {
 	s.ctx = ctx
+
+	s.tokenServer = NewTokenServer(func(token string) {
+		s.emitEvent("token:received", token)
+	})
+	if err := s.tokenServer.Start(ctx); err != nil {
+		logging.New("[GUI][OnStartup]").Warn("token server failed to start", "error", err)
+	}
 }
 
 // OnShutdown cleans up resources. Called automatically by the Wails runtime.
 func (s *WailsService) OnShutdown(_ context.Context) {
+	if s.tokenServer != nil {
+		s.tokenServer.Stop()
+	}
+
 	s.mu.Lock()
 	if s.cancelFunc != nil {
 		s.cancelFunc()
